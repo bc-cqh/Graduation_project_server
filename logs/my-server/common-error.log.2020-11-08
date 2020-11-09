@@ -1,0 +1,583 @@
+2020-11-07 15:21:17,110 ERROR 69206 nodejs.TypeError: Cannot read property 'User' of undefined
+    at User.register (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:4:28)
+    at UserController.register (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:10:32)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+
+pid: 69206
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:04:20,459 ERROR 70195 nodejs.SequelizeConnectionError: Unknown database 'my_server'
+    at ConnectionManager.connect (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:126:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'my_server'"}
+original: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'my_server'"}
+pid: 70195
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:04:23,487 ERROR 70195 nodejs.SequelizeConnectionError: Unknown database 'my_server'
+    at ConnectionManager.connect (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:126:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'my_server'"}
+original: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'my_server'"}
+pid: 70195
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:07:18,395 ERROR 70280 nodejs.SequelizeValidationError: notNull Violation: user.nickName cannot be null
+    at InstanceValidator._validate (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at InstanceValidator._validateAndRunHooks (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/instance-validator.js:111:7)
+    at InstanceValidator.validate (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/instance-validator.js:93:12)
+    at User.save (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/model.js:3877:7)
+    at Function.create (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/model.js:2207:12)
+    at User.register (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:5:20)
+name: "SequelizeValidationError"
+errors: [{"message":"user.nickName cannot be null","type":"notNull Violation","path":"nickName","value":null,"origin":"CORE","instance":{"ctime":1604736438147,"mtime":1604736438320,"userId":"ec72dca2a8b947e89c7d19056467749b","organizationId":null,"dingUnionid":null,"avatar":null,"id":null,"mobile":"18720357242","password":"$2a$08$CgG4iYlvDc8Wbisj.GpW4erRfMqYrCM.2j2Oz5U50Vffyy4JHUjGK"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 70280
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:08:22,924 ERROR 70289 nodejs.SequelizeDatabaseError: Field 'nick_name' doesn't have a default value
+    at Query.formatError (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'nick_name' doesn't have a default value","sql":"INSERT INTO `bas_user` (`id`,`user_id`,`organization_id`,`ding_union_id`,`avatar`,`mobile`,`password`,`ctime`,`mtime`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","parameters":["9ce424fd1c8d42bd9b282c701bdfcee5",null,null,null,"18720357242","$2a$08$DPSsZnkUVQYlLH8fefcz9uT75VltFQSnYPQiQaGO.ZAhLl5WWrURK",1604736502778,1604736502847]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'nick_name' doesn't have a default value","sql":"INSERT INTO `bas_user` (`id`,`user_id`,`organization_id`,`ding_union_id`,`avatar`,`mobile`,`password`,`ctime`,`mtime`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","parameters":["9ce424fd1c8d42bd9b282c701bdfcee5",null,null,null,"18720357242","$2a$08$DPSsZnkUVQYlLH8fefcz9uT75VltFQSnYPQiQaGO.ZAhLl5WWrURK",1604736502778,1604736502847]}
+sql: "INSERT INTO `bas_user` (`id`,`user_id`,`organization_id`,`ding_union_id`,`avatar`,`mobile`,`password`,`ctime`,`mtime`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);"
+parameters: ["9ce424fd1c8d42bd9b282c701bdfcee5",null,null,null,"18720357242","$2a$08$DPSsZnkUVQYlLH8fefcz9uT75VltFQSnYPQiQaGO.ZAhLl5WWrURK",1604736502778,1604736502847]
+pid: 70289
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:09:20,477 ERROR 70319 nodejs.SequelizeDatabaseError: Field 'nick_name' doesn't have a default value
+    at Query.formatError (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'nick_name' doesn't have a default value","sql":"INSERT INTO `bas_user` (`id`,`user_id`,`organization_id`,`ding_union_id`,`avatar`,`mobile`,`password`,`ctime`,`mtime`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","parameters":["625b3547f6114cbd8899da7d20ffeba7",null,null,null,"18720357242","$2a$08$D7geZ9.EZodhdvNiE559ee1olCvO72eGtinjjJeWD0spoBimuIxU2",1604736560353,1604736560447]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'nick_name' doesn't have a default value","sql":"INSERT INTO `bas_user` (`id`,`user_id`,`organization_id`,`ding_union_id`,`avatar`,`mobile`,`password`,`ctime`,`mtime`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","parameters":["625b3547f6114cbd8899da7d20ffeba7",null,null,null,"18720357242","$2a$08$D7geZ9.EZodhdvNiE559ee1olCvO72eGtinjjJeWD0spoBimuIxU2",1604736560353,1604736560447]}
+sql: "INSERT INTO `bas_user` (`id`,`user_id`,`organization_id`,`ding_union_id`,`avatar`,`mobile`,`password`,`ctime`,`mtime`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);"
+parameters: ["625b3547f6114cbd8899da7d20ffeba7",null,null,null,"18720357242","$2a$08$D7geZ9.EZodhdvNiE559ee1olCvO72eGtinjjJeWD0spoBimuIxU2",1604736560353,1604736560447]
+pid: 70319
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:09:48,552 ERROR 70323 nodejs.SequelizeDatabaseError: Field 'nick_name' doesn't have a default value
+    at Query.formatError (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'nick_name' doesn't have a default value","sql":"INSERT INTO `bas_user` (`id`,`user_id`,`organization_id`,`ding_union_id`,`avatar`,`mobile`,`password`,`ctime`,`mtime`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","parameters":["ca3349c3b61e423d98fe83ba9d64f7b1",null,null,null,"18720357242","$2a$08$.A0ZSQWyKZ3pcKa9U8ZkAu61BPf2KSozcAp0mcGy92rpQGYCiLlKW",1604736588396,1604736588504]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'nick_name' doesn't have a default value","sql":"INSERT INTO `bas_user` (`id`,`user_id`,`organization_id`,`ding_union_id`,`avatar`,`mobile`,`password`,`ctime`,`mtime`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","parameters":["ca3349c3b61e423d98fe83ba9d64f7b1",null,null,null,"18720357242","$2a$08$.A0ZSQWyKZ3pcKa9U8ZkAu61BPf2KSozcAp0mcGy92rpQGYCiLlKW",1604736588396,1604736588504]}
+sql: "INSERT INTO `bas_user` (`id`,`user_id`,`organization_id`,`ding_union_id`,`avatar`,`mobile`,`password`,`ctime`,`mtime`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);"
+parameters: ["ca3349c3b61e423d98fe83ba9d64f7b1",null,null,null,"18720357242","$2a$08$.A0ZSQWyKZ3pcKa9U8ZkAu61BPf2KSozcAp0mcGy92rpQGYCiLlKW",1604736588396,1604736588504]
+pid: 70323
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:11:35,615 ERROR 70347 nodejs.SequelizeDatabaseError: Field 'nick_name' doesn't have a default value
+    at Query.formatError (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'nick_name' doesn't have a default value","sql":"INSERT INTO `bas_user` (`id`,`user_id`,`organization_id`,`ding_union_id`,`avatar`,`mobile`,`password`,`ctime`,`mtime`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","parameters":["cad295da1ec943dab81f55b9b870b17f",null,null,null,"18720357242","$2a$08$1B11yXoARtfTigIII6zWu.qvI7BUHQ31bzEGqbZZpUaVWU3rDgwyu",1604736695529,1604736695596]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'nick_name' doesn't have a default value","sql":"INSERT INTO `bas_user` (`id`,`user_id`,`organization_id`,`ding_union_id`,`avatar`,`mobile`,`password`,`ctime`,`mtime`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","parameters":["cad295da1ec943dab81f55b9b870b17f",null,null,null,"18720357242","$2a$08$1B11yXoARtfTigIII6zWu.qvI7BUHQ31bzEGqbZZpUaVWU3rDgwyu",1604736695529,1604736695596]}
+sql: "INSERT INTO `bas_user` (`id`,`user_id`,`organization_id`,`ding_union_id`,`avatar`,`mobile`,`password`,`ctime`,`mtime`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);"
+parameters: ["cad295da1ec943dab81f55b9b870b17f",null,null,null,"18720357242","$2a$08$1B11yXoARtfTigIII6zWu.qvI7BUHQ31bzEGqbZZpUaVWU3rDgwyu",1604736695529,1604736695596]
+pid: 70347
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:38:37,627 ERROR 70750 [-/::1/-/50ms POST /api/register] nodejs.TypeError: Cannot read property 'body' of undefined
+    at UserController.register (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:10:48)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+
+pid: 70750
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:44:27,418 ERROR 70863 [-/::1/-/37ms POST /api/register] nodejs.TypeError: Cannot read property 'body' of undefined
+    at UserController.register (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:10:48)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+
+pid: 70863
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 19:16:01,486 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 4495843ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 20:01:14,239 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 2712750ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 20:16:02,421 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828159ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 23:16:10,623 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 10728160ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 00:16:18,828 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 3528170ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 01:45:49,001 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 5310157ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 02:00:54,663 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 785591ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 02:15:43,012 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 02:30:51,206 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828145ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 02:45:59,438 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828196ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 03:00:47,641 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828176ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 03:15:55,861 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828185ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 03:30:44,072 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828185ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 03:45:52,298 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828193ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 04:01:00,525 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828177ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 07:00:48,743 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 10728190ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 07:23:53,963 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 1305187ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 07:38:59,583 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 785571ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 07:53:47,800 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828189ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 08:08:55,995 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828176ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 08:23:44,220 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 08:38:52,451 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828194ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 08:53:40,661 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828178ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 09:08:48,880 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828193ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 09:23:57,090 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828160ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 09:38:44,925 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 827804ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 13:38:41,338 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 3528187ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 16:38:49,554 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 10728185ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 17:38:57,771 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 3528191ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 20:38:45,998 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 10728194ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 22:08:54,206 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 5328184ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 23:08:42,405 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 3528164ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 03:38:50,622 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 16128182ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 04:38:58,823 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 3528174ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 09:08:47,046 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 16128179ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 09:33:42,256 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 1415166ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 10:11:36,450 ERROR 74212 [-/::1/-/33ms POST /api/register] nodejs.TypeError: Cannot read property 'body' of undefined
+    at UserController.register (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:10:48)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+
+pid: 74212
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 10:38:41,676 ERROR 74682 [-/127.0.0.1/-/80ms GET /api/login] nodejs.ERROR_PASSWORDError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+code: "ERROR_PASSWORD"
+name: "ERROR_PASSWORDError"
+pid: 74682
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 10:56:10,755 ERROR 74800 [-/127.0.0.1/-/103ms GET /api/login] nodejs.ERROR_PASSWORDError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+code: "ERROR_PASSWORD"
+name: "ERROR_PASSWORDError"
+pid: 74800
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 11:01:16,252 ERROR 75012 [-/127.0.0.1/-/44ms GET /api/login] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': '20ce2fe8-67f9-4682-8092-76f859bafe71',
+    host: '127.0.0.1:7001',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '112',
+    cookie: 'WAVEVIEW_SESS=iaSq9yEcgi71Yfkk-K5DNgu_WqgT2yQSlWYUKiTbU3ZEpDtrCS7X1Z8r0trJveZh'
+  },
+  router: {},
+  query: {},
+  body: {
+    platform: 'user',
+    loginInfo: { mobile: '18720357242', password: 'cqhh0817' }
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-09 14:21:54,057 ERROR 78119 [-/127.0.0.1/-/58ms GET /api/login] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': '21e76276-61c2-49fc-81b7-bbbde750a030',
+    host: '127.0.0.1:7001',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '113',
+    cookie: 'WAVEVIEW_SESS=iaSq9yEcgi71Yfkk-K5DNgu_WqgT2yQSlWYUKiTbU3ZEpDtrCS7X1Z8r0trJveZh'
+  },
+  router: {},
+  query: {},
+  body: {
+    platform: 'user',
+    loginInfo: { mobile: '18720357242', password: 'cqhh02807' }
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-09 14:22:08,080 ERROR 78119 [-/127.0.0.1/-/94ms GET /api/login] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': '83cfdf65-79ee-4b3f-bd0f-3e7c5f3db178',
+    host: '127.0.0.1:7001',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '113',
+    cookie: 'WAVEVIEW_SESS=iaSq9yEcgi71Yfkk-K5DNgu_WqgT2yQSlWYUKiTbU3ZEpDtrCS7X1Z8r0trJveZh'
+  },
+  router: {},
+  query: {},
+  body: {
+    platform: 'user',
+    loginInfo: { mobile: '18720357242', password: 'cqhh02807' }
+  }
+} SysError: 密码输入错误5次，账户临时限制登录，请联系管理员
+    at User.errorCount (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:66:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:40:9)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PASSWORD_FIVE'
+}
+2020-11-09 14:23:06,490 ERROR 78119 [-/127.0.0.1/-/78ms GET /api/login] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': '07dd5336-f7a2-4046-bfc7-08d33cd16335',
+    host: '127.0.0.1:7001',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '112',
+    cookie: 'WAVEVIEW_SESS=iaSq9yEcgi71Yfkk-K5DNgu_WqgT2yQSlWYUKiTbU3ZEpDtrCS7X1Z8r0trJveZh'
+  },
+  router: {},
+  query: {},
+  body: {
+    platform: 'user',
+    loginInfo: { mobile: '18720357242', password: 'cqhh0807' }
+  }
+} SysError: 密码输入错误5次，账户临时限制登录，请联系管理员
+    at User.isLocked (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:54:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:25:7)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PASSWORD_FIVE'
+}

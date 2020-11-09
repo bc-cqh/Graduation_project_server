@@ -1,0 +1,579 @@
+2020-11-07 11:37:59,563 INFO 65228 [egg:logger] init all loggers with options: {"dir":"/Users/chengqihan/workspace/my-app/my-server/logs/my-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-07 11:37:59,572 INFO 65228 [egg:core] dump config after load, 5ms
+2020-11-07 11:37:59,660 INFO 65228 [egg-watcher] Start watching: ["/Users/chengqihan/workspace/my-app/my-server/app","/Users/chengqihan/workspace/my-app/my-server/config","/Users/chengqihan/workspace/my-app/my-server/mocks","/Users/chengqihan/workspace/my-app/my-server/mocks_proxy","/Users/chengqihan/workspace/my-app/my-server/app.js"]
+2020-11-07 11:37:59,660 INFO 65228 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app"
+2020-11-07 11:37:59,660 INFO 65228 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/config"
+2020-11-07 11:37:59,660 INFO 65228 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks"
+2020-11-07 11:37:59,660 INFO 65228 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks_proxy"
+2020-11-07 11:37:59,660 INFO 65228 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app.js"
+2020-11-07 11:37:59,661 INFO 65228 [egg-watcher:agent] watcher start success
+2020-11-07 11:37:59,682 INFO 65228 [egg:core] dump config after ready, 17ms
+2020-11-07 11:38:03,884 INFO 65228 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891381320,"size":64,"blocks":0,"atimeMs":1604720283869.9417,"mtimeMs":1604720283869.9417,"ctimeMs":1604720283869.9417,"birthtimeMs":1604720283869.9417,"atime":"2020-11-07T03:38:03.870Z","mtime":"2020-11-07T03:38:03.870Z","ctime":"2020-11-07T03:38:03.870Z","birthtime":"2020-11-07T03:38:03.870Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-11-07 11:39:01,451 INFO 65278 [egg:logger] init all loggers with options: {"dir":"/Users/chengqihan/workspace/my-app/my-server/logs/my-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-07 11:39:01,460 INFO 65278 [egg:core] dump config after load, 4ms
+2020-11-07 11:39:01,528 INFO 65278 [egg-watcher] Start watching: ["/Users/chengqihan/workspace/my-app/my-server/app","/Users/chengqihan/workspace/my-app/my-server/config","/Users/chengqihan/workspace/my-app/my-server/mocks","/Users/chengqihan/workspace/my-app/my-server/mocks_proxy","/Users/chengqihan/workspace/my-app/my-server/app.js"]
+2020-11-07 11:39:01,528 INFO 65278 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app"
+2020-11-07 11:39:01,529 INFO 65278 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/config"
+2020-11-07 11:39:01,529 INFO 65278 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks"
+2020-11-07 11:39:01,529 INFO 65278 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks_proxy"
+2020-11-07 11:39:01,529 INFO 65278 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app.js"
+2020-11-07 11:39:01,529 INFO 65278 [egg-watcher:agent] watcher start success
+2020-11-07 11:39:01,545 INFO 65278 [egg:core] dump config after ready, 8ms
+2020-11-07 11:48:57,524 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/model","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383433,"size":64,"blocks":0,"atimeMs":1604720937438.7114,"mtimeMs":1604720937438.7114,"ctimeMs":1604720937438.7114,"birthtimeMs":1604720937438.7114,"atime":"2020-11-07T03:48:57.439Z","mtime":"2020-11-07T03:48:57.439Z","ctime":"2020-11-07T03:48:57.439Z","birthtime":"2020-11-07T03:48:57.439Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-11-07 11:49:03,453 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":0,"blocks":0,"atimeMs":1604720943438.9365,"mtimeMs":1604720943438.9365,"ctimeMs":1604720943438.9365,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T03:49:03.439Z","mtime":"2020-11-07T03:49:03.439Z","ctime":"2020-11-07T03:49:03.439Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 11:49:03,661 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts rename
+2020-11-07 11:52:17,046 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/config/config.default.js change
+2020-11-07 11:52:16,841 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311147,"size":1527,"blocks":8,"atimeMs":1604654993766.9587,"mtimeMs":1604721136779.0317,"ctimeMs":1604721136779.0317,"birthtimeMs":1604654251471.7808,"atime":"2020-11-06T09:29:53.767Z","mtime":"2020-11-07T03:52:16.779Z","ctime":"2020-11-07T03:52:16.779Z","birthtime":"2020-11-06T09:17:31.472Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 14:28:18,350 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/extend","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891390555,"size":64,"blocks":0,"atimeMs":1604730498285.331,"mtimeMs":1604730498285.331,"ctimeMs":1604730498285.331,"birthtimeMs":1604730498285.331,"atime":"2020-11-07T06:28:18.285Z","mtime":"2020-11-07T06:28:18.285Z","ctime":"2020-11-07T06:28:18.285Z","birthtime":"2020-11-07T06:28:18.285Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-11-07 14:28:30,500 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts rename
+2020-11-07 14:28:30,295 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891390625,"size":0,"blocks":0,"atimeMs":1604730510279.321,"mtimeMs":1604730510279.321,"ctimeMs":1604730510279.321,"birthtimeMs":1604730510279.321,"atime":"2020-11-07T06:28:30.279Z","mtime":"2020-11-07T06:28:30.279Z","ctime":"2020-11-07T06:28:30.279Z","birthtime":"2020-11-07T06:28:30.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 14:32:06,593 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts change
+2020-11-07 14:32:06,388 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891390625,"size":6244,"blocks":16,"atimeMs":1604730510279.321,"mtimeMs":1604730726315.712,"ctimeMs":1604730726315.712,"birthtimeMs":1604730510279.321,"atime":"2020-11-07T06:28:30.279Z","mtime":"2020-11-07T06:32:06.316Z","ctime":"2020-11-07T06:32:06.316Z","birthtime":"2020-11-07T06:28:30.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 14:32:38,750 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/common/sys_error.ts rename
+2020-11-07 14:32:38,536 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/common/sys_error.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891392078,"size":161,"blocks":8,"atimeMs":1604730758470.2034,"mtimeMs":1604730758472.394,"ctimeMs":1604730758475.3757,"birthtimeMs":1604730758470.2034,"atime":"2020-11-07T06:32:38.470Z","mtime":"2020-11-07T06:32:38.472Z","ctime":"2020-11-07T06:32:38.475Z","birthtime":"2020-11-07T06:32:38.470Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 14:32:53,805 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts change
+2020-11-07 14:32:53,603 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891390625,"size":6215,"blocks":16,"atimeMs":1604730754039.053,"mtimeMs":1604730773541.459,"ctimeMs":1604730773541.459,"birthtimeMs":1604730510279.321,"atime":"2020-11-07T06:32:34.039Z","mtime":"2020-11-07T06:32:53.541Z","ctime":"2020-11-07T06:32:53.541Z","birthtime":"2020-11-07T06:28:30.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 14:36:53,640 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts change
+2020-11-07 14:36:53,435 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3260,"blocks":8,"atimeMs":1604720943438.9365,"mtimeMs":1604731013373.5667,"ctimeMs":1604731013373.5667,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T03:49:03.439Z","mtime":"2020-11-07T06:36:53.374Z","ctime":"2020-11-07T06:36:53.374Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 14:38:39,832 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts change
+2020-11-07 14:38:39,629 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3294,"blocks":8,"atimeMs":1604731119531.9658,"mtimeMs":1604731119536.419,"ctimeMs":1604731119536.419,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T06:38:39.532Z","mtime":"2020-11-07T06:38:39.536Z","ctime":"2020-11-07T06:38:39.536Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 14:43:17,951 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891390625,"size":6313,"blocks":16,"atimeMs":1604731016585.6887,"mtimeMs":1604731397890.6077,"ctimeMs":1604731397890.6077,"birthtimeMs":1604730510279.321,"atime":"2020-11-07T06:36:56.586Z","mtime":"2020-11-07T06:43:17.891Z","ctime":"2020-11-07T06:43:17.891Z","birthtime":"2020-11-07T06:28:30.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 14:43:18,157 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts change
+2020-11-07 14:59:53,395 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts change
+2020-11-07 14:59:53,191 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891390625,"size":6794,"blocks":16,"atimeMs":1604732316079.0266,"mtimeMs":1604732393130.282,"ctimeMs":1604732393130.282,"birthtimeMs":1604730510279.321,"atime":"2020-11-07T06:58:36.079Z","mtime":"2020-11-07T06:59:53.130Z","ctime":"2020-11-07T06:59:53.130Z","birthtime":"2020-11-07T06:28:30.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:00:26,708 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts change
+2020-11-07 15:00:26,507 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3217,"blocks":8,"atimeMs":1604732170896.5535,"mtimeMs":1604732426444.7603,"ctimeMs":1604732426444.7603,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T06:56:10.897Z","mtime":"2020-11-07T07:00:26.445Z","ctime":"2020-11-07T07:00:26.445Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:01:20,194 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts change
+2020-11-07 15:01:19,988 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3206,"blocks":8,"atimeMs":1604732479916.079,"mtimeMs":1604732479916.8242,"ctimeMs":1604732479916.8242,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T07:01:19.916Z","mtime":"2020-11-07T07:01:19.917Z","ctime":"2020-11-07T07:01:19.917Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:03:55,587 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts change
+2020-11-07 15:03:55,380 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":238,"blocks":8,"atimeMs":1604720283888.2937,"mtimeMs":1604732635318.415,"ctimeMs":1604732635318.415,"birthtimeMs":1604654251474.0706,"atime":"2020-11-07T03:38:03.888Z","mtime":"2020-11-07T07:03:55.318Z","ctime":"2020-11-07T07:03:55.318Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:04:07,595 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/service","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891395540,"size":64,"blocks":0,"atimeMs":1604732647553.4788,"mtimeMs":1604732647553.4788,"ctimeMs":1604732647553.4788,"birthtimeMs":1604732647553.4788,"atime":"2020-11-07T07:04:07.553Z","mtime":"2020-11-07T07:04:07.553Z","ctime":"2020-11-07T07:04:07.553Z","birthtime":"2020-11-07T07:04:07.553Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-11-07 15:08:06,010 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts rename
+2020-11-07 15:08:05,807 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":0,"blocks":0,"atimeMs":1604732885732.701,"mtimeMs":1604732885732.701,"ctimeMs":1604732885732.701,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:08:05.733Z","mtime":"2020-11-07T07:08:05.733Z","ctime":"2020-11-07T07:08:05.733Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:08:42,650 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-07 15:08:42,447 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":48,"blocks":8,"atimeMs":1604732885732.701,"mtimeMs":1604732922384.8616,"ctimeMs":1604732922384.8616,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:08:05.733Z","mtime":"2020-11-07T07:08:42.385Z","ctime":"2020-11-07T07:08:42.385Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:08:43,602 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-07 15:08:43,347 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":48,"blocks":8,"atimeMs":1604732923334.3909,"mtimeMs":1604732923335.1167,"ctimeMs":1604732923335.1167,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:08:43.334Z","mtime":"2020-11-07T07:08:43.335Z","ctime":"2020-11-07T07:08:43.335Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:08:43,397 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":48,"blocks":8,"atimeMs":1604732923334.3909,"mtimeMs":1604732923335.1167,"ctimeMs":1604732923335.1167,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:08:43.334Z","mtime":"2020-11-07T07:08:43.335Z","ctime":"2020-11-07T07:08:43.335Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:08:58,461 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-07 15:08:58,255 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":78,"blocks":8,"atimeMs":1604732933520.493,"mtimeMs":1604732938193.2576,"ctimeMs":1604732938193.2576,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:08:53.520Z","mtime":"2020-11-07T07:08:58.193Z","ctime":"2020-11-07T07:08:58.193Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:10:00,088 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-07 15:09:59,882 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":135,"blocks":8,"atimeMs":1604732999814.0198,"mtimeMs":1604732999822.0176,"ctimeMs":1604732999822.0176,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:09:59.814Z","mtime":"2020-11-07T07:09:59.822Z","ctime":"2020-11-07T07:09:59.822Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:10:13,184 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":155,"blocks":8,"atimeMs":1604733013164.5537,"mtimeMs":1604733013171.71,"ctimeMs":1604733013171.71,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:10:13.165Z","mtime":"2020-11-07T07:10:13.172Z","ctime":"2020-11-07T07:10:13.172Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:10:13,435 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-07 15:10:13,232 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":155,"blocks":8,"atimeMs":1604733013164.5537,"mtimeMs":1604733013171.71,"ctimeMs":1604733013171.71,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:10:13.165Z","mtime":"2020-11-07T07:10:13.172Z","ctime":"2020-11-07T07:10:13.172Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:12:27,870 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-07 15:12:27,666 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":266,"blocks":8,"atimeMs":1604733070394.6423,"mtimeMs":1604733147605.3137,"ctimeMs":1604733147605.3137,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:11:10.395Z","mtime":"2020-11-07T07:12:27.605Z","ctime":"2020-11-07T07:12:27.605Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:12:29,332 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-07 15:12:29,089 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":263,"blocks":8,"atimeMs":1604733149067.3267,"mtimeMs":1604733149068.6816,"ctimeMs":1604733149068.6816,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:12:29.067Z","mtime":"2020-11-07T07:12:29.069Z","ctime":"2020-11-07T07:12:29.069Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:12:29,130 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":263,"blocks":8,"atimeMs":1604733149067.3267,"mtimeMs":1604733149068.6816,"ctimeMs":1604733149068.6816,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:12:29.067Z","mtime":"2020-11-07T07:12:29.069Z","ctime":"2020-11-07T07:12:29.069Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:12:44,683 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":282,"blocks":8,"atimeMs":1604733150506.699,"mtimeMs":1604733164621.0127,"ctimeMs":1604733164621.0127,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:12:30.507Z","mtime":"2020-11-07T07:12:44.621Z","ctime":"2020-11-07T07:12:44.621Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:12:44,888 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-07 15:13:06,730 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":261,"blocks":8,"atimeMs":1604732833407.5486,"mtimeMs":1604733186667.4736,"ctimeMs":1604733186667.4736,"birthtimeMs":1604654251474.0706,"atime":"2020-11-07T07:07:13.408Z","mtime":"2020-11-07T07:13:06.667Z","ctime":"2020-11-07T07:13:06.667Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:13:06,933 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts change
+2020-11-07 15:13:14,659 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts change
+2020-11-07 15:13:14,407 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":243,"blocks":8,"atimeMs":1604733194393.7812,"mtimeMs":1604733194395.5935,"ctimeMs":1604733194395.5935,"birthtimeMs":1604654251474.0706,"atime":"2020-11-07T07:13:14.394Z","mtime":"2020-11-07T07:13:14.396Z","ctime":"2020-11-07T07:13:14.396Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:13:14,457 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":243,"blocks":8,"atimeMs":1604733194393.7812,"mtimeMs":1604733194395.5935,"ctimeMs":1604733194395.5935,"birthtimeMs":1604654251474.0706,"atime":"2020-11-07T07:13:14.394Z","mtime":"2020-11-07T07:13:14.396Z","ctime":"2020-11-07T07:13:14.396Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:13:38,621 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts change
+2020-11-07 15:13:38,417 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":233,"blocks":8,"atimeMs":1604733218352.3787,"mtimeMs":1604733218356.0486,"ctimeMs":1604733218356.0486,"birthtimeMs":1604654251474.0706,"atime":"2020-11-07T07:13:38.352Z","mtime":"2020-11-07T07:13:38.356Z","ctime":"2020-11-07T07:13:38.356Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:13:52,431 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts change
+2020-11-07 15:13:52,181 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":241,"blocks":8,"atimeMs":1604733232168.318,"mtimeMs":1604733232170.479,"ctimeMs":1604733232170.479,"birthtimeMs":1604654251474.0706,"atime":"2020-11-07T07:13:52.168Z","mtime":"2020-11-07T07:13:52.170Z","ctime":"2020-11-07T07:13:52.170Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:13:52,231 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":241,"blocks":8,"atimeMs":1604733232168.318,"mtimeMs":1604733232170.479,"ctimeMs":1604733232170.479,"birthtimeMs":1604654251474.0706,"atime":"2020-11-07T07:13:52.168Z","mtime":"2020-11-07T07:13:52.170Z","ctime":"2020-11-07T07:13:52.170Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:14:35,865 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":283,"blocks":8,"atimeMs":1604733275803.1987,"mtimeMs":1604733275804.6182,"ctimeMs":1604733275804.6182,"birthtimeMs":1604654251474.0706,"atime":"2020-11-07T07:14:35.803Z","mtime":"2020-11-07T07:14:35.805Z","ctime":"2020-11-07T07:14:35.805Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:14:36,071 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts change
+2020-11-07 15:15:27,032 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/routers/account.ts change
+2020-11-07 15:15:26,826 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/routers/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891357476,"size":580,"blocks":8,"atimeMs":1604720310502.2734,"mtimeMs":1604733326764.5022,"ctimeMs":1604733326764.5022,"birthtimeMs":1604655314389.5437,"atime":"2020-11-07T03:38:30.502Z","mtime":"2020-11-07T07:15:26.765Z","ctime":"2020-11-07T07:15:26.765Z","birthtime":"2020-11-06T09:35:14.390Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:15:48,109 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/routers/account.ts change
+2020-11-07 15:15:47,906 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/routers/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891357476,"size":583,"blocks":8,"atimeMs":1604733342087.9795,"mtimeMs":1604733347844.4844,"ctimeMs":1604733347844.4844,"birthtimeMs":1604655314389.5437,"atime":"2020-11-07T07:15:42.088Z","mtime":"2020-11-07T07:15:47.844Z","ctime":"2020-11-07T07:15:47.844Z","birthtime":"2020-11-06T09:35:14.390Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:15:57,361 INFO 68912 [egg:logger] init all loggers with options: {"dir":"/Users/chengqihan/workspace/my-app/my-server/logs/my-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-07 15:15:57,372 INFO 68912 [egg:core] dump config after load, 7ms
+2020-11-07 15:15:57,445 INFO 68912 [egg-watcher] Start watching: ["/Users/chengqihan/workspace/my-app/my-server/app","/Users/chengqihan/workspace/my-app/my-server/config","/Users/chengqihan/workspace/my-app/my-server/mocks","/Users/chengqihan/workspace/my-app/my-server/mocks_proxy","/Users/chengqihan/workspace/my-app/my-server/app.js"]
+2020-11-07 15:15:57,445 INFO 68912 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app"
+2020-11-07 15:15:57,445 INFO 68912 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/config"
+2020-11-07 15:15:57,445 INFO 68912 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks"
+2020-11-07 15:15:57,445 INFO 68912 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks_proxy"
+2020-11-07 15:15:57,446 INFO 68912 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app.js"
+2020-11-07 15:15:57,446 INFO 68912 [egg-watcher:agent] watcher start success
+2020-11-07 15:15:57,480 INFO 68912 [egg:core] dump config after ready, 6ms
+2020-11-07 15:17:22,013 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/config/config.default.js change
+2020-11-07 15:17:21,805 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311147,"size":1593,"blocks":8,"atimeMs":1604721138063.181,"mtimeMs":1604733441743.1367,"ctimeMs":1604733441743.1367,"birthtimeMs":1604654251471.7808,"atime":"2020-11-07T03:52:18.063Z","mtime":"2020-11-07T07:17:21.743Z","ctime":"2020-11-07T07:17:21.743Z","birthtime":"2020-11-06T09:17:31.472Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:18:12,254 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/config/plugin.js change
+2020-11-07 15:18:12,048 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311148,"size":342,"blocks":8,"atimeMs":1604654252062.5078,"mtimeMs":1604733491987.151,"ctimeMs":1604733491987.151,"birthtimeMs":1604654251472.3225,"atime":"2020-11-06T09:17:32.063Z","mtime":"2020-11-07T07:18:11.987Z","ctime":"2020-11-07T07:18:11.987Z","birthtime":"2020-11-06T09:17:31.472Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:18:30,558 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/config/plugin.js change
+2020-11-07 15:18:30,351 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311148,"size":342,"blocks":8,"atimeMs":1604733493263.004,"mtimeMs":1604733510288.788,"ctimeMs":1604733510288.788,"birthtimeMs":1604654251472.3225,"atime":"2020-11-07T07:18:13.263Z","mtime":"2020-11-07T07:18:30.289Z","ctime":"2020-11-07T07:18:30.289Z","birthtime":"2020-11-06T09:17:31.472Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:19:02,365 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/config/plugin.js change
+2020-11-07 15:19:02,162 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311148,"size":266,"blocks":8,"atimeMs":1604733510805.2222,"mtimeMs":1604733542100.7798,"ctimeMs":1604733542100.7798,"birthtimeMs":1604654251472.3225,"atime":"2020-11-07T07:18:30.805Z","mtime":"2020-11-07T07:19:02.101Z","ctime":"2020-11-07T07:19:02.101Z","birthtime":"2020-11-06T09:17:31.472Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:20:04,596 WARN 65278 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/config/plugin.js change
+2020-11-07 15:20:04,393 INFO 65278 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311148,"size":266,"blocks":8,"atimeMs":1604733543602.8,"mtimeMs":1604733604329.9182,"ctimeMs":1604733604329.9182,"birthtimeMs":1604654251472.3225,"atime":"2020-11-07T07:19:03.603Z","mtime":"2020-11-07T07:20:04.330Z","ctime":"2020-11-07T07:20:04.330Z","birthtime":"2020-11-06T09:17:31.472Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:21:11,793 INFO 69205 [egg:logger] init all loggers with options: {"dir":"/Users/chengqihan/workspace/my-app/my-server/logs/my-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-07 15:21:11,802 INFO 69205 [egg:core] dump config after load, 3ms
+2020-11-07 15:21:11,869 INFO 69205 [egg-watcher] Start watching: ["/Users/chengqihan/workspace/my-app/my-server/app","/Users/chengqihan/workspace/my-app/my-server/config","/Users/chengqihan/workspace/my-app/my-server/mocks","/Users/chengqihan/workspace/my-app/my-server/mocks_proxy","/Users/chengqihan/workspace/my-app/my-server/app.js"]
+2020-11-07 15:21:11,869 INFO 69205 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app"
+2020-11-07 15:21:11,870 INFO 69205 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/config"
+2020-11-07 15:21:11,870 INFO 69205 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks"
+2020-11-07 15:21:11,870 INFO 69205 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks_proxy"
+2020-11-07 15:21:11,870 INFO 69205 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app.js"
+2020-11-07 15:21:11,870 INFO 69205 [egg-watcher:agent] watcher start success
+2020-11-07 15:21:11,896 INFO 69205 [egg:core] dump config after ready, 14ms
+2020-11-07 15:49:30,472 WARN 69205 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/config/plugin.js change
+2020-11-07 15:49:30,264 INFO 69205 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311148,"size":332,"blocks":8,"atimeMs":1604733605506.5698,"mtimeMs":1604735370200.5186,"ctimeMs":1604735370200.5186,"birthtimeMs":1604654251472.3225,"atime":"2020-11-07T07:20:05.507Z","mtime":"2020-11-07T07:49:30.201Z","ctime":"2020-11-07T07:49:30.201Z","birthtime":"2020-11-06T09:17:31.472Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:49:33,582 WARN 69205 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/config/plugin.js change
+2020-11-07 15:49:33,325 INFO 69205 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311148,"size":333,"blocks":8,"atimeMs":1604735370587.8765,"mtimeMs":1604735373314.105,"ctimeMs":1604735373314.105,"birthtimeMs":1604654251472.3225,"atime":"2020-11-07T07:49:30.588Z","mtime":"2020-11-07T07:49:33.314Z","ctime":"2020-11-07T07:49:33.314Z","birthtime":"2020-11-06T09:17:31.472Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:49:33,376 INFO 69205 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311148,"size":333,"blocks":8,"atimeMs":1604735370587.8765,"mtimeMs":1604735373314.105,"ctimeMs":1604735373314.105,"birthtimeMs":1604654251472.3225,"atime":"2020-11-07T07:49:30.588Z","mtime":"2020-11-07T07:49:33.314Z","ctime":"2020-11-07T07:49:33.314Z","birthtime":"2020-11-06T09:17:31.472Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:53:11,159 WARN 69205 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts change
+2020-11-07 15:53:10,958 INFO 69205 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3202,"blocks":8,"atimeMs":1604732889837.7295,"mtimeMs":1604735590895.5532,"ctimeMs":1604735590895.5532,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T07:08:09.838Z","mtime":"2020-11-07T07:53:10.896Z","ctime":"2020-11-07T07:53:10.896Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:53:44,790 WARN 69205 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts change
+2020-11-07 15:53:44,585 INFO 69205 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3202,"blocks":8,"atimeMs":1604735600344.5361,"mtimeMs":1604735624523.3066,"ctimeMs":1604735624523.3066,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T07:53:20.345Z","mtime":"2020-11-07T07:53:44.523Z","ctime":"2020-11-07T07:53:44.523Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:53:45,921 INFO 69205 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3202,"blocks":8,"atimeMs":1604735625909.0432,"mtimeMs":1604735625909.7473,"ctimeMs":1604735625909.7473,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T07:53:45.909Z","mtime":"2020-11-07T07:53:45.910Z","ctime":"2020-11-07T07:53:45.910Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 15:53:46,177 WARN 69205 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts change
+2020-11-07 15:53:45,971 INFO 69205 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3202,"blocks":8,"atimeMs":1604735625909.0432,"mtimeMs":1604735625909.7473,"ctimeMs":1604735625909.7473,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T07:53:45.909Z","mtime":"2020-11-07T07:53:45.910Z","ctime":"2020-11-07T07:53:45.910Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:04:14,430 INFO 70195 [egg:logger] init all loggers with options: {"dir":"/Users/chengqihan/workspace/my-app/my-server/logs/my-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-07 16:04:20,320 INFO 70195 [egg:core] dump config after load, 4ms
+2020-11-07 16:04:20,413 INFO 70195 [egg-watcher] Start watching: ["/Users/chengqihan/workspace/my-app/my-server/app","/Users/chengqihan/workspace/my-app/my-server/config","/Users/chengqihan/workspace/my-app/my-server/mocks","/Users/chengqihan/workspace/my-app/my-server/mocks_proxy","/Users/chengqihan/workspace/my-app/my-server/app.js"]
+2020-11-07 16:04:20,413 INFO 70195 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app"
+2020-11-07 16:04:20,414 INFO 70195 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/config"
+2020-11-07 16:04:20,414 INFO 70195 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks"
+2020-11-07 16:04:20,414 INFO 70195 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks_proxy"
+2020-11-07 16:04:20,414 INFO 70195 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app.js"
+2020-11-07 16:04:20,415 INFO 70195 [egg-watcher:agent] watcher start success
+2020-11-07 16:04:20,455 WARN 70195 Sequelize Error: Unknown database 'my_server', sleep 1 seconds to retry...
+2020-11-07 16:04:20,460 ERROR 70195 nodejs.SequelizeConnectionError: Unknown database 'my_server'
+    at ConnectionManager.connect (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:126:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'my_server'"}
+original: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'my_server'"}
+pid: 70195
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:04:21,470 WARN 70195 Sequelize Error: Unknown database 'my_server', sleep 1 seconds to retry...
+2020-11-07 16:04:22,481 WARN 70195 Sequelize Error: Unknown database 'my_server', sleep 1 seconds to retry...
+2020-11-07 16:04:23,487 ERROR 70195 nodejs.SequelizeConnectionError: Unknown database 'my_server'
+    at ConnectionManager.connect (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:126:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'my_server'"}
+original: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'my_server'"}
+pid: 70195
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:04:23,494 INFO 70195 [egg:core] dump config after ready, 5ms
+2020-11-07 16:05:39,783 INFO 70234 [egg:logger] init all loggers with options: {"dir":"/Users/chengqihan/workspace/my-app/my-server/logs/my-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-07 16:05:40,590 INFO 70234 [egg:core] dump config after load, 5ms
+2020-11-07 16:05:40,670 INFO 70234 [egg-watcher] Start watching: ["/Users/chengqihan/workspace/my-app/my-server/app","/Users/chengqihan/workspace/my-app/my-server/config","/Users/chengqihan/workspace/my-app/my-server/mocks","/Users/chengqihan/workspace/my-app/my-server/mocks_proxy","/Users/chengqihan/workspace/my-app/my-server/app.js"]
+2020-11-07 16:05:40,670 INFO 70234 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app"
+2020-11-07 16:05:40,671 INFO 70234 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/config"
+2020-11-07 16:05:40,671 INFO 70234 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks"
+2020-11-07 16:05:40,671 INFO 70234 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks_proxy"
+2020-11-07 16:05:40,671 INFO 70234 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app.js"
+2020-11-07 16:05:40,672 INFO 70234 [egg-watcher:agent] watcher start success
+2020-11-07 16:05:40,742 INFO 70234 [egg:core] dump config after ready, 6ms
+2020-11-07 16:07:05,665 INFO 70279 [egg:logger] init all loggers with options: {"dir":"/Users/chengqihan/workspace/my-app/my-server/logs/my-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-07 16:07:06,227 INFO 70279 [egg:core] dump config after load, 6ms
+2020-11-07 16:07:06,266 INFO 70279 [egg-watcher] Start watching: ["/Users/chengqihan/workspace/my-app/my-server/app","/Users/chengqihan/workspace/my-app/my-server/config","/Users/chengqihan/workspace/my-app/my-server/mocks","/Users/chengqihan/workspace/my-app/my-server/mocks_proxy","/Users/chengqihan/workspace/my-app/my-server/app.js"]
+2020-11-07 16:07:06,266 INFO 70279 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app"
+2020-11-07 16:07:06,267 INFO 70279 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/config"
+2020-11-07 16:07:06,267 INFO 70279 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks"
+2020-11-07 16:07:06,267 INFO 70279 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks_proxy"
+2020-11-07 16:07:06,267 INFO 70279 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app.js"
+2020-11-07 16:07:06,268 INFO 70279 [egg-watcher:agent] watcher start success
+2020-11-07 16:07:06,329 INFO 70279 [egg:core] dump config after ready, 16ms
+2020-11-07 16:07:53,596 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3194,"blocks":8,"atimeMs":1604736260453.6404,"mtimeMs":1604736473533.7642,"ctimeMs":1604736473533.7642,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T08:04:20.454Z","mtime":"2020-11-07T08:07:53.534Z","ctime":"2020-11-07T08:07:53.534Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:07:53,799 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts change
+2020-11-07 16:09:10,271 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts change
+2020-11-07 16:09:10,070 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3168,"blocks":8,"atimeMs":1604736484844.1775,"mtimeMs":1604736550006.9963,"ctimeMs":1604736550006.9963,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T08:08:04.844Z","mtime":"2020-11-07T08:09:10.007Z","ctime":"2020-11-07T08:09:10.007Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:09:39,454 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts change
+2020-11-07 16:09:39,251 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3043,"blocks":8,"atimeMs":1604736566515.4153,"mtimeMs":1604736579189.773,"ctimeMs":1604736579189.773,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T08:09:26.515Z","mtime":"2020-11-07T08:09:39.190Z","ctime":"2020-11-07T08:09:39.190Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:11:26,804 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts change
+2020-11-07 16:11:26,600 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3043,"blocks":8,"atimeMs":1604736686063.9116,"mtimeMs":1604736686538.8115,"ctimeMs":1604736686538.8115,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T08:11:26.064Z","mtime":"2020-11-07T08:11:26.539Z","ctime":"2020-11-07T08:11:26.539Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:12:51,927 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/model/user.ts change
+2020-11-07 16:12:51,724 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/model/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891383447,"size":3168,"blocks":8,"atimeMs":1604736691396.892,"mtimeMs":1604736771660.9807,"ctimeMs":1604736771660.9807,"birthtimeMs":1604720943438.9365,"atime":"2020-11-07T08:11:31.397Z","mtime":"2020-11-07T08:12:51.661Z","ctime":"2020-11-07T08:12:51.661Z","birthtime":"2020-11-07T03:49:03.439Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:33:25,418 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891390625,"size":6215,"blocks":16,"atimeMs":1604736188452.9717,"mtimeMs":1604738005358.9084,"ctimeMs":1604738005358.9084,"birthtimeMs":1604730510279.321,"atime":"2020-11-07T08:03:08.453Z","mtime":"2020-11-07T08:33:25.359Z","ctime":"2020-11-07T08:33:25.359Z","birthtime":"2020-11-07T06:28:30.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:33:25,622 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts change
+2020-11-07 16:33:30,163 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts change
+2020-11-07 16:33:29,911 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891358771,"size":2095,"blocks":8,"atimeMs":1604719368212.2126,"mtimeMs":1604738009897.041,"ctimeMs":1604738009897.041,"birthtimeMs":1604655962563.5842,"atime":"2020-11-07T03:22:48.212Z","mtime":"2020-11-07T08:33:29.897Z","ctime":"2020-11-07T08:33:29.897Z","birthtime":"2020-11-06T09:46:02.564Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:33:29,958 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891358771,"size":2095,"blocks":8,"atimeMs":1604719368212.2126,"mtimeMs":1604738009897.041,"ctimeMs":1604738009897.041,"birthtimeMs":1604655962563.5842,"atime":"2020-11-07T03:22:48.212Z","mtime":"2020-11-07T08:33:29.897Z","ctime":"2020-11-07T08:33:29.897Z","birthtime":"2020-11-06T09:46:02.564Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:37:32,906 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-07 16:37:32,702 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":270,"blocks":8,"atimeMs":1604733189145.5767,"mtimeMs":1604738252641.7974,"ctimeMs":1604738252641.7974,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T07:13:09.146Z","mtime":"2020-11-07T08:37:32.642Z","ctime":"2020-11-07T08:37:32.642Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:37:39,638 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts change
+2020-11-07 16:37:39,383 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":673,"blocks":8,"atimeMs":1604733332051.0225,"mtimeMs":1604738259371.0571,"ctimeMs":1604738259371.0571,"birthtimeMs":1604654251474.0706,"atime":"2020-11-07T07:15:32.051Z","mtime":"2020-11-07T08:37:39.371Z","ctime":"2020-11-07T08:37:39.371Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:37:39,433 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":673,"blocks":8,"atimeMs":1604733332051.0225,"mtimeMs":1604738259371.0571,"ctimeMs":1604738259371.0571,"birthtimeMs":1604654251474.0706,"atime":"2020-11-07T07:15:32.051Z","mtime":"2020-11-07T08:37:39.371Z","ctime":"2020-11-07T08:37:39.371Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:44:16,359 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/contract/request/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891357865,"size":447,"blocks":8,"atimeMs":1604719559734.2954,"mtimeMs":1604738656298.732,"ctimeMs":1604738656298.732,"birthtimeMs":1604655440029.0774,"atime":"2020-11-07T03:25:59.734Z","mtime":"2020-11-07T08:44:16.299Z","ctime":"2020-11-07T08:44:16.299Z","birthtime":"2020-11-06T09:37:20.029Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-07 16:44:16,561 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/contract/request/account.ts change
+2020-11-07 19:16:01,487 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 4495843ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 20:01:14,239 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 2712750ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 20:16:02,428 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828159ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 23:16:10,623 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 10728160ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 00:16:18,828 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 3528170ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 01:45:49,001 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 5310157ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 02:00:54,664 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 785591ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 02:15:43,013 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 02:30:51,206 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828145ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 02:45:59,438 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828196ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 03:00:47,642 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828176ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 03:15:55,861 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828185ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 03:30:44,072 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828185ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 03:45:52,303 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828193ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 04:01:00,525 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828177ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 07:00:48,743 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 10728190ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 07:23:53,963 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 1305187ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 07:38:59,583 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 785571ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 07:53:47,800 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828189ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 08:08:55,996 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828176ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 08:23:44,221 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 08:38:52,451 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828194ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 08:53:40,661 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828178ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 09:08:48,891 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828193ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 09:23:57,090 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 828160ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 09:38:44,925 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 827804ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 13:38:41,338 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 3528187ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 16:38:49,554 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 10728185ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 17:38:57,772 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 3528191ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 20:38:45,998 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 10728194ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 22:08:54,206 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 5328184ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-08 23:08:42,405 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 3528164ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 03:38:50,623 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 16128182ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 04:38:58,823 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 3528174ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 09:08:47,046 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 16128179ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 09:33:42,257 ERROR 70279 nodejs.ClusterClientNoResponseError: client no response in 1415166ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chengqihan/workspace/my-app/my-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 70279
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 09:54:34,583 INFO 73916 [egg:logger] init all loggers with options: {"dir":"/Users/chengqihan/workspace/my-app/my-server/logs/my-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-09 09:54:35,557 INFO 73916 [egg:core] dump config after load, 11ms
+2020-11-09 09:54:35,647 INFO 73916 [egg-watcher] Start watching: ["/Users/chengqihan/workspace/my-app/my-server/app","/Users/chengqihan/workspace/my-app/my-server/config","/Users/chengqihan/workspace/my-app/my-server/mocks","/Users/chengqihan/workspace/my-app/my-server/mocks_proxy","/Users/chengqihan/workspace/my-app/my-server/app.js"]
+2020-11-09 09:54:35,647 INFO 73916 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app"
+2020-11-09 09:54:35,647 INFO 73916 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/config"
+2020-11-09 09:54:35,647 INFO 73916 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks"
+2020-11-09 09:54:35,647 INFO 73916 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/mocks_proxy"
+2020-11-09 09:54:35,647 INFO 73916 [egg-watcher] Start watching: "/Users/chengqihan/workspace/my-app/my-server/app.js"
+2020-11-09 09:54:35,648 INFO 73916 [egg-watcher:agent] watcher start success
+2020-11-09 09:54:35,762 INFO 73916 [egg:core] dump config after ready, 16ms
+2020-11-09 10:00:28,797 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/cache.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891428234,"size":748,"blocks":8,"atimeMs":1604887228727.1218,"mtimeMs":1604887228730.7405,"ctimeMs":1604887228732.933,"birthtimeMs":1604887228727.1218,"atime":"2020-11-09T02:00:28.727Z","mtime":"2020-11-09T02:00:28.731Z","ctime":"2020-11-09T02:00:28.733Z","birthtime":"2020-11-09T02:00:28.727Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:00:29,012 WARN 73916 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/cache.ts rename
+2020-11-09 10:00:28,792 INFO 73916 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/cache.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891428234,"size":748,"blocks":8,"atimeMs":1604887228727.1218,"mtimeMs":1604887228730.7405,"ctimeMs":1604887228732.933,"birthtimeMs":1604887228727.1218,"atime":"2020-11-09T02:00:28.727Z","mtime":"2020-11-09T02:00:28.731Z","ctime":"2020-11-09T02:00:28.733Z","birthtime":"2020-11-09T02:00:28.727Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:00:29,015 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/cache.ts rename
+2020-11-09 10:00:47,798 WARN 73916 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts change
+2020-11-09 10:00:47,595 INFO 73916 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":656,"blocks":8,"atimeMs":1604738264704.4739,"mtimeMs":1604887247531.604,"ctimeMs":1604887247531.604,"birthtimeMs":1604654251474.0706,"atime":"2020-11-07T08:37:44.704Z","mtime":"2020-11-09T02:00:47.532Z","ctime":"2020-11-09T02:00:47.532Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:00:47,798 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts change
+2020-11-09 10:00:47,595 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":656,"blocks":8,"atimeMs":1604738264704.4739,"mtimeMs":1604887247531.604,"ctimeMs":1604887247531.604,"birthtimeMs":1604654251474.0706,"atime":"2020-11-07T08:37:44.704Z","mtime":"2020-11-09T02:00:47.532Z","ctime":"2020-11-09T02:00:47.532Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:03:54,208 INFO 73916 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/middleware/check_login.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891428948,"size":221,"blocks":8,"atimeMs":1604887434142.9634,"mtimeMs":1604887434143.8276,"ctimeMs":1604887434144.8672,"birthtimeMs":1604887434142.9634,"atime":"2020-11-09T02:03:54.143Z","mtime":"2020-11-09T02:03:54.144Z","ctime":"2020-11-09T02:03:54.145Z","birthtime":"2020-11-09T02:03:54.143Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:03:54,434 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/middleware/check_login.ts rename
+2020-11-09 10:03:54,211 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/middleware/check_login.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891428948,"size":221,"blocks":8,"atimeMs":1604887434142.9634,"mtimeMs":1604887434143.8276,"ctimeMs":1604887434144.8672,"birthtimeMs":1604887434142.9634,"atime":"2020-11-09T02:03:54.143Z","mtime":"2020-11-09T02:03:54.144Z","ctime":"2020-11-09T02:03:54.145Z","birthtime":"2020-11-09T02:03:54.143Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:03:54,413 WARN 73916 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/middleware/check_login.ts rename
+2020-11-09 10:05:02,588 WARN 73916 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:05:02,380 INFO 73916 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":572,"blocks":8,"atimeMs":1604738264548.7427,"mtimeMs":1604887502315.8857,"ctimeMs":1604887502315.8857,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T08:37:44.549Z","mtime":"2020-11-09T02:05:02.316Z","ctime":"2020-11-09T02:05:02.316Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:05:02,583 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:05:02,377 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":572,"blocks":8,"atimeMs":1604738264548.7427,"mtimeMs":1604887502315.8857,"ctimeMs":1604887502315.8857,"birthtimeMs":1604732885732.701,"atime":"2020-11-07T08:37:44.549Z","mtime":"2020-11-09T02:05:02.316Z","ctime":"2020-11-09T02:05:02.316Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:05:38,692 WARN 73916 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/middleware/check_login.ts change
+2020-11-09 10:05:38,489 INFO 73916 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/middleware/check_login.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891428948,"size":206,"blocks":8,"atimeMs":1604887434329.2395,"mtimeMs":1604887538427.1155,"ctimeMs":1604887538427.1155,"birthtimeMs":1604887434142.9634,"atime":"2020-11-09T02:03:54.329Z","mtime":"2020-11-09T02:05:38.427Z","ctime":"2020-11-09T02:05:38.427Z","birthtime":"2020-11-09T02:03:54.143Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:05:38,692 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/middleware/check_login.ts change
+2020-11-09 10:05:38,489 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/middleware/check_login.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891428948,"size":206,"blocks":8,"atimeMs":1604887434329.2395,"mtimeMs":1604887538427.1155,"ctimeMs":1604887538427.1155,"birthtimeMs":1604887434142.9634,"atime":"2020-11-09T02:03:54.329Z","mtime":"2020-11-09T02:05:38.427Z","ctime":"2020-11-09T02:05:38.427Z","birthtime":"2020-11-09T02:03:54.143Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:08:30,234 INFO 73916 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":631,"blocks":8,"atimeMs":1604887505877.2583,"mtimeMs":1604887710171.909,"ctimeMs":1604887710171.909,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:05:05.877Z","mtime":"2020-11-09T02:08:30.172Z","ctime":"2020-11-09T02:08:30.172Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:08:30,438 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:08:30,233 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":631,"blocks":8,"atimeMs":1604887505877.2583,"mtimeMs":1604887710171.909,"ctimeMs":1604887710171.909,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:05:05.877Z","mtime":"2020-11-09T02:08:30.172Z","ctime":"2020-11-09T02:08:30.172Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:08:30,435 WARN 73916 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:09:14,883 WARN 73916 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:09:14,678 INFO 73916 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":865,"blocks":8,"atimeMs":1604887714571.3113,"mtimeMs":1604887754615.4604,"ctimeMs":1604887754615.4604,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:08:34.571Z","mtime":"2020-11-09T02:09:14.615Z","ctime":"2020-11-09T02:09:14.615Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:09:14,883 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:09:14,678 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":865,"blocks":8,"atimeMs":1604887714571.3113,"mtimeMs":1604887754615.4604,"ctimeMs":1604887754615.4604,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:08:34.571Z","mtime":"2020-11-09T02:09:14.615Z","ctime":"2020-11-09T02:09:14.615Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:09:30,465 WARN 73916 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:09:30,260 INFO 73916 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":909,"blocks":8,"atimeMs":1604887757090.5881,"mtimeMs":1604887770164.1157,"ctimeMs":1604887770164.1157,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:09:17.091Z","mtime":"2020-11-09T02:09:30.164Z","ctime":"2020-11-09T02:09:30.164Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:09:30,473 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:09:30,266 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":909,"blocks":8,"atimeMs":1604887757090.5881,"mtimeMs":1604887770164.1157,"ctimeMs":1604887770164.1157,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:09:17.091Z","mtime":"2020-11-09T02:09:30.164Z","ctime":"2020-11-09T02:09:30.164Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:13:54,866 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/routers/account.ts change
+2020-11-09 10:13:54,653 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/routers/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891357476,"size":580,"blocks":8,"atimeMs":1604733350246.7258,"mtimeMs":1604888034593.1306,"ctimeMs":1604888034593.1306,"birthtimeMs":1604655314389.5437,"atime":"2020-11-07T07:15:50.247Z","mtime":"2020-11-09T02:13:54.593Z","ctime":"2020-11-09T02:13:54.593Z","birthtime":"2020-11-06T09:35:14.390Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:17:30,088 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3495,"blocks":8,"atimeMs":1604887773646.315,"mtimeMs":1604888250023.979,"ctimeMs":1604888250023.979,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:09:33.646Z","mtime":"2020-11-09T02:17:30.024Z","ctime":"2020-11-09T02:17:30.024Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:17:30,292 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:17:44,057 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:17:43,804 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3526,"blocks":8,"atimeMs":1604888260053.9944,"mtimeMs":1604888263792.2058,"ctimeMs":1604888263792.2058,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:17:40.054Z","mtime":"2020-11-09T02:17:43.792Z","ctime":"2020-11-09T02:17:43.792Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:17:43,854 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3526,"blocks":8,"atimeMs":1604888260053.9944,"mtimeMs":1604888263792.2058,"ctimeMs":1604888263792.2058,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:17:40.054Z","mtime":"2020-11-09T02:17:43.792Z","ctime":"2020-11-09T02:17:43.792Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:18:02,015 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:18:01,802 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3508,"blocks":8,"atimeMs":1604888281739.7676,"mtimeMs":1604888281741.0564,"ctimeMs":1604888281741.0564,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:18:01.740Z","mtime":"2020-11-09T02:18:01.741Z","ctime":"2020-11-09T02:18:01.741Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:23:36,148 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3466,"blocks":8,"atimeMs":1604888368677.1,"mtimeMs":1604888616086.8342,"ctimeMs":1604888616086.8342,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:19:28.677Z","mtime":"2020-11-09T02:23:36.087Z","ctime":"2020-11-09T02:23:36.087Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:23:36,353 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:24:08,373 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:24:08,166 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3084,"blocks":8,"atimeMs":1604888648094.4546,"mtimeMs":1604888648103.4792,"ctimeMs":1604888648103.4792,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:24:08.094Z","mtime":"2020-11-09T02:24:08.103Z","ctime":"2020-11-09T02:24:08.103Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:24:56,273 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:24:56,068 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3057,"blocks":8,"atimeMs":1604888676035.2993,"mtimeMs":1604888696006.5461,"ctimeMs":1604888696006.5461,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:24:36.035Z","mtime":"2020-11-09T02:24:56.007Z","ctime":"2020-11-09T02:24:56.007Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:31:00,436 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3085,"blocks":8,"atimeMs":1604888767166.4583,"mtimeMs":1604889060374.9255,"ctimeMs":1604889060374.9255,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:26:07.166Z","mtime":"2020-11-09T02:31:00.375Z","ctime":"2020-11-09T02:31:00.375Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:31:00,639 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:31:43,511 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:31:43,304 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3073,"blocks":8,"atimeMs":1604889103237.0364,"mtimeMs":1604889103240.5632,"ctimeMs":1604889103240.5632,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:31:43.237Z","mtime":"2020-11-09T02:31:43.241Z","ctime":"2020-11-09T02:31:43.241Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:31:51,267 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:31:51,012 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3074,"blocks":8,"atimeMs":1604889111000.088,"mtimeMs":1604889111001.402,"ctimeMs":1604889111001.402,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:31:51.000Z","mtime":"2020-11-09T02:31:51.001Z","ctime":"2020-11-09T02:31:51.001Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:31:51,062 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3074,"blocks":8,"atimeMs":1604889111000.088,"mtimeMs":1604889111001.402,"ctimeMs":1604889111001.402,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:31:51.000Z","mtime":"2020-11-09T02:31:51.001Z","ctime":"2020-11-09T02:31:51.001Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:34:45,197 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 10:34:44,992 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3076,"blocks":8,"atimeMs":1604889220836.7446,"mtimeMs":1604889284930.0054,"ctimeMs":1604889284930.0054,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:33:40.837Z","mtime":"2020-11-09T02:34:44.930Z","ctime":"2020-11-09T02:34:44.930Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:38:24,690 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts change
+2020-11-09 10:38:24,482 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":1132,"blocks":8,"atimeMs":1604887252413.1716,"mtimeMs":1604889504419.9238,"ctimeMs":1604889504419.9238,"birthtimeMs":1604654251474.0706,"atime":"2020-11-09T02:00:52.413Z","mtime":"2020-11-09T02:38:24.420Z","ctime":"2020-11-09T02:38:24.420Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:43:01,667 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311150,"size":1115,"blocks":8,"atimeMs":1604889521684.398,"mtimeMs":1604889781605.1912,"ctimeMs":1604889781605.1912,"birthtimeMs":1604654251474.0706,"atime":"2020-11-09T02:38:41.684Z","mtime":"2020-11-09T02:43:01.605Z","ctime":"2020-11-09T02:43:01.605Z","birthtime":"2020-11-06T09:17:31.474Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:43:01,875 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts change
+2020-11-09 10:45:31,549 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts rename
+2020-11-09 10:45:31,346 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891434955,"size":941,"blocks":8,"atimeMs":1604889930990.4744,"mtimeMs":1604889930878.411,"ctimeMs":1604889930880.6484,"birthtimeMs":1604889930873.446,"atime":"2020-11-09T02:45:30.990Z","mtime":"2020-11-09T02:45:30.878Z","ctime":"2020-11-09T02:45:30.881Z","birthtime":"2020-11-09T02:45:30.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:45:32,548 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts rename
+2020-11-09 10:45:32,298 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891434955,"size":941,"blocks":8,"atimeMs":1604889930990.4744,"mtimeMs":1604889932285.0864,"ctimeMs":1604889932285.0864,"birthtimeMs":1604889930873.446,"atime":"2020-11-09T02:45:30.990Z","mtime":"2020-11-09T02:45:32.285Z","ctime":"2020-11-09T02:45:32.285Z","birthtime":"2020-11-09T02:45:30.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 10:45:32,346 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891434955,"size":941,"blocks":8,"atimeMs":1604889930990.4744,"mtimeMs":1604889932285.0864,"ctimeMs":1604889932285.0864,"birthtimeMs":1604889930873.446,"atime":"2020-11-09T02:45:30.990Z","mtime":"2020-11-09T02:45:32.285Z","ctime":"2020-11-09T02:45:32.285Z","birthtime":"2020-11-09T02:45:30.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 11:00:27,290 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/config/config.default.js change
+2020-11-09 11:00:27,064 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891311147,"size":1609,"blocks":8,"atimeMs":1604733442138.2712,"mtimeMs":1604890827001.4995,"ctimeMs":1604890827001.4995,"birthtimeMs":1604654251471.7808,"atime":"2020-11-07T07:17:22.138Z","mtime":"2020-11-09T03:00:27.001Z","ctime":"2020-11-09T03:00:27.001Z","birthtime":"2020-11-06T09:17:31.472Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 11:13:28,844 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts change
+2020-11-09 11:13:28,641 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/extend/application.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891390625,"size":5645,"blocks":16,"atimeMs":1604738018843.5933,"mtimeMs":1604891608573.8691,"ctimeMs":1604891608573.8691,"birthtimeMs":1604730510279.321,"atime":"2020-11-07T08:33:38.844Z","mtime":"2020-11-09T03:13:28.574Z","ctime":"2020-11-09T03:13:28.574Z","birthtime":"2020-11-07T06:28:30.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 14:20:15,910 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/middleware/check_login.ts change
+2020-11-09 14:20:15,697 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/middleware/check_login.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891428948,"size":206,"blocks":8,"atimeMs":1604887541048.067,"mtimeMs":1604902815623.764,"ctimeMs":1604902815623.764,"birthtimeMs":1604887434142.9634,"atime":"2020-11-09T02:05:41.048Z","mtime":"2020-11-09T06:20:15.624Z","ctime":"2020-11-09T06:20:15.624Z","birthtime":"2020-11-09T02:03:54.143Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 14:20:47,804 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 14:20:47,599 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3104,"blocks":8,"atimeMs":1604889390632.5947,"mtimeMs":1604902847532.0312,"ctimeMs":1604902847532.0312,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T02:36:30.633Z","mtime":"2020-11-09T06:20:47.532Z","ctime":"2020-11-09T06:20:47.532Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 14:21:06,888 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 14:21:06,667 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3099,"blocks":8,"atimeMs":1604902862472.1665,"mtimeMs":1604902866602.7302,"ctimeMs":1604902866602.7302,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T06:21:02.472Z","mtime":"2020-11-09T06:21:06.603Z","ctime":"2020-11-09T06:21:06.603Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 14:21:32,181 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 14:21:31,975 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3106,"blocks":8,"atimeMs":1604902885666.8762,"mtimeMs":1604902891913.5164,"ctimeMs":1604902891913.5164,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T06:21:25.667Z","mtime":"2020-11-09T06:21:31.914Z","ctime":"2020-11-09T06:21:31.914Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-09 14:23:58,791 WARN 70279 [agent:development] reload worker because /Users/chengqihan/workspace/my-app/my-server/app/service/account.ts change
+2020-11-09 14:23:58,586 INFO 70279 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891396239,"size":3076,"blocks":8,"atimeMs":1604902904647.8018,"mtimeMs":1604903038524.8477,"ctimeMs":1604903038524.8477,"birthtimeMs":1604732885732.701,"atime":"2020-11-09T06:21:44.648Z","mtime":"2020-11-09T06:23:58.525Z","ctime":"2020-11-09T06:23:58.525Z","birthtime":"2020-11-07T07:08:05.733Z"},"remove":false,"isDirectory":false,"isFile":true}

@@ -1,0 +1,367 @@
+{
+  "keys": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+  "middleware": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+  "cors": {
+    "origin": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "allowMethods": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js"
+  },
+  "router": {
+    "prefix": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js"
+  },
+  "session": {
+    "name": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "key": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "maxAge": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "httpOnly": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "encrypt": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "renew": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js"
+  },
+  "sessionRedis": {
+    "name": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js"
+  },
+  "redis": {
+    "clients": {
+      "session": {
+        "port": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+        "host": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+        "password": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+        "db": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js"
+      },
+      "cache": {
+        "port": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+        "host": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+        "password": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+        "db": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js"
+      }
+    },
+    "default": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-redis/config/config.default.js",
+    "app": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-redis/config/config.default.js",
+    "agent": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-redis/config/config.default.js"
+  },
+  "sequelize": {
+    "dialect": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "host": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "port": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "username": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "password": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "database": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "logging": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "timezone": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "define": {
+      "freezeTableName": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+      "timestamps": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+      "createdAt": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+      "updatedAt": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+      "paranoid": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+      "deletedAt": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js"
+    },
+    "dialectOptions": {
+      "decimalNumbers": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+      "type": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "name": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "version": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "description": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "private": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@hapi/joi": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "bcryptjs": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "crypto-js": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "egg": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "egg-session-redis": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "jsonwebtoken": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "security": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "sequelize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "tslib": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "@typescript-eslint/parser": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "eslint-config-airbnb-base": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "eslint-config-google": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "eslint-plugin-import": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "tslint": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "tslint-config-egg": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "test": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "url": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "license": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "env": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "level": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "port": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+}

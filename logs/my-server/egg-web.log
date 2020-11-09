@@ -1,0 +1,20 @@
+2020-11-09 14:36:36,964 INFO 78149 [egg-logrotator] app logger reload: got log-reload message
+2020-11-09 14:42:07,010 INFO 78636 [egg:logger] init all loggers with options: {"dir":"/Users/chengqihan/workspace/my-app/my-server/logs/my-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"my-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-11-09 14:42:07,044 INFO 78636 [egg-multipart] stream mode enable
+2020-11-09 14:42:07,463 INFO 78636 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-11-09 14:42:07,466 INFO 78636 [egg-redis] server connecting redis://:***@127.0.0.1:6379/1
+2020-11-09 14:42:07,885 INFO 78636 [egg-static] starting static serve /public/ -> /Users/chengqihan/workspace/my-app/my-server/app/public
+2020-11-09 14:42:07,890 INFO 78636 [egg-security] use methodnoallow middleware
+2020-11-09 14:42:07,892 INFO 78636 [egg-security] use noopen middleware
+2020-11-09 14:42:07,893 INFO 78636 [egg-security] use nosniff middleware
+2020-11-09 14:42:07,895 INFO 78636 [egg-security] use xssProtection middleware
+2020-11-09 14:42:07,897 INFO 78636 [egg-security] use xframe middleware
+2020-11-09 14:42:07,898 INFO 78636 [egg-security] use dta middleware
+2020-11-09 14:42:07,898 INFO 78636 [egg-security] compose 6 middlewares into one security middleware
+2020-11-09 14:42:07,924 INFO 78636 [egg:core] dump config after load, 10ms
+2020-11-09 14:42:07,948 INFO 78636 [egg-redis] client connect success
+2020-11-09 14:42:07,948 INFO 78636 [egg-redis] client connect success
+2020-11-09 14:42:07,970 INFO 78636 [egg-watcher:application] watcher start success
+2020-11-09 14:42:07,992 INFO 78636 [egg-redis] instance[1] status OK, client ready
+2020-11-09 14:42:07,996 INFO 78636 [egg-redis] instance[0] status OK, client ready
+2020-11-09 14:42:08,015 INFO 78636 [egg:core] dump config after ready, 17ms

@@ -1,0 +1,227 @@
+2020-11-07 15:16:49,450 WARN 68905 [-/::1/-/2ms POST /api/register] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-07 15:16:49,463 WARN 68905 [-/::1/-/3ms POST /api/register] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 68905
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:38:37,628 ERROR 70750 [-/::1/-/50ms POST /api/register] nodejs.TypeError: Cannot read property 'body' of undefined
+    at UserController.register (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:10:48)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+
+pid: 70750
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-07 16:44:27,418 ERROR 70863 [-/::1/-/37ms POST /api/register] nodejs.TypeError: Cannot read property 'body' of undefined
+    at UserController.register (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:10:48)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+
+pid: 70863
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 10:11:36,459 ERROR 74212 [-/::1/-/33ms POST /api/register] nodejs.TypeError: Cannot read property 'body' of undefined
+    at UserController.register (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:10:48)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+
+pid: 74212
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 10:38:41,678 ERROR 74682 [-/127.0.0.1/-/80ms GET /api/login] nodejs.ERROR_PASSWORDError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+code: "ERROR_PASSWORD"
+name: "ERROR_PASSWORDError"
+pid: 74682
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 10:56:10,758 ERROR 74800 [-/127.0.0.1/-/103ms GET /api/login] nodejs.ERROR_PASSWORDError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+code: "ERROR_PASSWORD"
+name: "ERROR_PASSWORDError"
+pid: 74800
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-09 11:01:00,384 INFO 75012 [-/127.0.0.1/-/199ms GET /api/login] 200
+2020-11-09 11:01:16,252 ERROR 75012 [-/127.0.0.1/-/44ms GET /api/login] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': '20ce2fe8-67f9-4682-8092-76f859bafe71',
+    host: '127.0.0.1:7001',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '112',
+    cookie: 'WAVEVIEW_SESS=iaSq9yEcgi71Yfkk-K5DNgu_WqgT2yQSlWYUKiTbU3ZEpDtrCS7X1Z8r0trJveZh'
+  },
+  router: {},
+  query: {},
+  body: {
+    platform: 'user',
+    loginInfo: { mobile: '18720357242', password: 'cqhh0817' }
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-09 11:01:16,252 INFO 75012 [-/127.0.0.1/-/79ms GET /api/login] 200
+2020-11-09 14:18:28,755 INFO 75208 [-/127.0.0.1/-/523ms GET /api/login] 200
+2020-11-09 14:20:59,162 INFO 78104 [-/127.0.0.1/-/183ms GET /api/login] 200
+2020-11-09 14:21:20,169 INFO 78107 [-/127.0.0.1/-/193ms GET /api/login] 200
+2020-11-09 14:21:37,557 INFO 78107 [-/127.0.0.1/-/75ms GET /api/login] 200
+2020-11-09 14:21:41,874 INFO 78119 [-/127.0.0.1/-/130ms GET /api/login] 200
+2020-11-09 14:21:54,058 ERROR 78119 [-/127.0.0.1/-/58ms GET /api/login] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': '21e76276-61c2-49fc-81b7-bbbde750a030',
+    host: '127.0.0.1:7001',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '113',
+    cookie: 'WAVEVIEW_SESS=iaSq9yEcgi71Yfkk-K5DNgu_WqgT2yQSlWYUKiTbU3ZEpDtrCS7X1Z8r0trJveZh'
+  },
+  router: {},
+  query: {},
+  body: {
+    platform: 'user',
+    loginInfo: { mobile: '18720357242', password: 'cqhh02807' }
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-09 14:21:54,059 INFO 78119 [-/127.0.0.1/-/96ms GET /api/login] 200
+2020-11-09 14:22:08,081 ERROR 78119 [-/127.0.0.1/-/94ms GET /api/login] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': '83cfdf65-79ee-4b3f-bd0f-3e7c5f3db178',
+    host: '127.0.0.1:7001',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '113',
+    cookie: 'WAVEVIEW_SESS=iaSq9yEcgi71Yfkk-K5DNgu_WqgT2yQSlWYUKiTbU3ZEpDtrCS7X1Z8r0trJveZh'
+  },
+  router: {},
+  query: {},
+  body: {
+    platform: 'user',
+    loginInfo: { mobile: '18720357242', password: 'cqhh02807' }
+  }
+} SysError: 密码输入错误5次，账户临时限制登录，请联系管理员
+    at User.errorCount (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:66:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:40:9)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PASSWORD_FIVE'
+}
+2020-11-09 14:22:08,081 INFO 78119 [-/127.0.0.1/-/96ms GET /api/login] 200
+2020-11-09 14:23:06,490 ERROR 78119 [-/127.0.0.1/-/78ms GET /api/login] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': '07dd5336-f7a2-4046-bfc7-08d33cd16335',
+    host: '127.0.0.1:7001',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '112',
+    cookie: 'WAVEVIEW_SESS=iaSq9yEcgi71Yfkk-K5DNgu_WqgT2yQSlWYUKiTbU3ZEpDtrCS7X1Z8r0trJveZh'
+  },
+  router: {},
+  query: {},
+  body: {
+    platform: 'user',
+    loginInfo: { mobile: '18720357242', password: 'cqhh0807' }
+  }
+} SysError: 密码输入错误5次，账户临时限制登录，请联系管理员
+    at User.isLocked (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:54:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:25:7)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PASSWORD_FIVE'
+}
+2020-11-09 14:23:06,490 INFO 78119 [-/127.0.0.1/-/79ms GET /api/login] 200

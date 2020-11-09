@@ -1,0 +1,4 @@
+2020-11-09 15:12:49,101 WARN 78636 A client (::1:64544) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2020-11-09 15:12:49,107 WARN 78636 A client (::1:64544) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2020-11-09 15:12:49,112 WARN 78636 A client (::1:64545) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2020-11-09 15:12:49,113 WARN 78636 A client (::1:64545) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
