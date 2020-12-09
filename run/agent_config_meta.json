@@ -16,6 +16,14 @@
     "encrypt": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
     "renew": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js"
   },
+  "secret": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "port": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+      "hostname": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+      "path": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+    }
+  },
   "sessionRedis": {
     "name": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js"
   },
@@ -114,6 +122,22 @@
       "checkAddress": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
     }
   },
+  "multipart": {
+    "mode": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "whitelist": "/Users/chengqihan/workspace/my-app/my-server/config/config.default.js",
+    "autoFields": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
   "helper": {
     "shtml": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/config/config.default.js"
   },
@@ -150,22 +174,6 @@
   },
   "schedule": {
     "directory": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-schedule/config/config.default.js"
-  },
-  "multipart": {
-    "mode": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
-    "autoFields": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js",
-    "cleanSchedule": {
-      "cron": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/config/config.default.js"
-    }
   },
   "development": {
     "watchDirs": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/config/config.default.js",
@@ -229,6 +237,7 @@
       "egg-session-redis": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
       "jsonwebtoken": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
       "mysql2": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "react": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
       "security": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
       "sequelize": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
       "tslib": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
@@ -247,7 +256,8 @@
       "eslint-config-google": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
       "eslint-plugin-import": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
       "tslint": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
-      "tslint-config-egg": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
+      "tslint-config-egg": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
+      "xlsx": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
     },
     "engines": {
       "node": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
@@ -352,13 +362,6 @@
   "coreMiddleware": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
   "workerStartTimeout": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
   "serverTimeout": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
-  "cluster": {
-    "listen": {
-      "path": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
-      "port": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"
-    }
-  },
   "clusterClient": {
     "maxWaitTime": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js",
     "responseTimeout": "/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/config/config.default.js"

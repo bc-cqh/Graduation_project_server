@@ -6,7 +6,7 @@ export default function accountRouter(app: Application): Routers[] {
   const { controller } = app;
   return [
     {
-      method: 'get',
+      method: 'post',
       path: '/login',
       schema: schema.login,
       authentication: false,
@@ -18,6 +18,19 @@ export default function accountRouter(app: Application): Routers[] {
       schema: schema.register,
       authentication: false,
       controller: controller.account.register,
+    },
+    {
+      method: 'post',
+      path: '/unlock',
+      schema: schema.unlock,
+      authentication: false,
+      controller: controller.account.unlock,
+    },
+    {
+      method: 'get',
+      path: '/currentUser',
+      authentication: false,
+      controller: controller.account.currentUser,
     },
 
   ];

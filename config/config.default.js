@@ -32,13 +32,19 @@ module.exports = appInfo => {
   }
   config.session = {
     name: 'session',
-    key: 'WAVEVIEW_SESS',
+    key: 'MY_SERVER',
     maxAge: 24 * 3600 * 1000, // 1 天
     httpOnly: true,
     encrypt: true,
     renew: false,
   };
-
+  config.secret = 'd2F2ZXZpZXc=';
+  config.cluster = {
+    listen: {
+      port: 9987,
+      hostname: '0.0.0.0',
+    },
+  };
   config.sessionRedis = {
     name: 'session',
   };
@@ -86,6 +92,16 @@ module.exports = appInfo => {
       enable: false,
     },
   };
+  config.multipart = {
+    mode: 'stream',
+    whitelist: [
+      '.xlsx',
+      '.xls',
+      '.png',
+      '.jpeg'
+    ],
+
+  }
   return {
     ...config,
     ...userConfig,

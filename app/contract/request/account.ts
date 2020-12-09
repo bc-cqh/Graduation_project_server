@@ -2,19 +2,41 @@ import Joi from '@hapi/joi';
 
 const login = {
   body: {
-    role: {
-      type: 'string',
-      validata: Joi.string().required(),
+    userName: {
+      type:'string',
+      validate: Joi.string().required(),
+    },
+    password: {
+      type:'string',
+      validate: Joi.string().required(),
+    },
+    autoLogin: {
+      type:'bool',
+      validate: Joi.bool().required(),
     },
   },
+
 };
 const register = {
   body: {
-    mobile: {
+    userName: {
       type: 'string',
-      validate: Joi.string().regex(/^1([3578][0-9]|4[579]|66|7[0135678]|9[89])[0-9]{8}$/).required(),
+      validate: Joi.string().required(),
     },
     password: {
+      type: 'string',
+      validate: Joi.string().required(),
+    },
+    currentAuthority: {
+      type: 'string',
+      validate: Joi.string().required(),
+    },
+  },
+};
+
+const unlock = {
+  body: {
+    userName: {
       type: 'string',
       validate: Joi.string().required(),
     },
@@ -23,4 +45,5 @@ const register = {
 export {
   login,
   register,
+  unlock,
 };

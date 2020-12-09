@@ -2,3 +2,2576 @@
 2020-11-09 15:12:49,107 WARN 78636 A client (::1:64544) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
 2020-11-09 15:12:49,112 WARN 78636 A client (::1:64545) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
 2020-11-09 15:12:49,113 WARN 78636 A client (::1:64545) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2020-11-09 16:10:10,105 WARN 78636 A client (::1:54475) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2020-11-09 16:10:10,129 WARN 78636 A client (::1:54475) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2020-11-09 16:10:10,382 WARN 78636 A client (::1:54476) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2020-11-09 16:10:10,383 WARN 78636 A client (::1:54476) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2020-11-09 16:14:40,978 ERROR 78636 [-/::1/-/221ms GET /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    accept: '*/*',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    cookie: 'csrfToken=gynCQAueA-n_Ic-dZnuNp5mn; isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7'
+  },
+  router: {},
+  query: {},
+  body: {}
+} TypeError: Cannot convert undefined or null to object
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:44:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:40)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:11
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+2020-11-09 16:14:40,979 INFO 78636 [-/::1/-/302ms GET /api/login] 200
+2020-11-09 16:15:07,882 ERROR 78636 [-/::1/-/7ms GET /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    accept: '*/*',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    cookie: 'csrfToken=gynCQAueA-n_Ic-dZnuNp5mn; isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7'
+  },
+  router: {},
+  query: {},
+  body: {}
+} TypeError: Cannot convert undefined or null to object
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:44:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:40)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:11
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+2020-11-09 16:15:07,882 INFO 78636 [-/::1/-/15ms GET /api/login] 200
+2020-11-09 16:25:40,700 ERROR 78636 [-/::1/-/8ms GET /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    accept: '*/*',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    cookie: 'csrfToken=gynCQAueA-n_Ic-dZnuNp5mn; isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7'
+  },
+  router: {},
+  query: {},
+  body: {}
+} TypeError: Cannot convert undefined or null to object
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:44:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:40)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:11
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+2020-11-09 16:25:40,701 INFO 78636 [-/::1/-/14ms GET /api/login] 200
+2020-11-09 16:35:37,235 ERROR 78636 [-/::1/-/9ms GET /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    accept: '*/*',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    cookie: 'csrfToken=gynCQAueA-n_Ic-dZnuNp5mn; isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7'
+  },
+  router: {},
+  query: {},
+  body: {}
+} TypeError: Cannot convert undefined or null to object
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:44:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:40)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:11
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+2020-11-09 16:35:37,235 INFO 78636 [-/::1/-/38ms GET /api/login] 200
+2020-11-09 16:53:26,181 ERROR 83195 [-/::1/-/35ms GET /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    accept: '*/*',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    cookie: 'csrfToken=gynCQAueA-n_Ic-dZnuNp5mn; isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7'
+  },
+  router: {},
+  query: {},
+  body: {}
+} TypeError: Cannot convert undefined or null to object
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:44:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:40)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:11
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+2020-11-09 16:53:26,182 INFO 83195 [-/::1/-/210ms GET /api/login] 200
+2020-11-09 16:58:59,430 ERROR 83505 [-/::1/-/22ms GET /api/login?userName=18720357242&password=cqhh0807&autoLogin=true&type=account] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {
+    userName: '18720357242',
+    password: 'cqhh0807',
+    autoLogin: 'true',
+    type: 'account'
+  },
+  body: {}
+} TypeError: Cannot convert undefined or null to object
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:44:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:40)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:11
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+2020-11-09 16:58:59,432 INFO 83505 [-/::1/-/65ms GET /api/login?userName=18720357242&password=cqhh0807&autoLogin=true&type=account] 200
+2020-11-09 17:01:04,488 ERROR 83720 [-/::1/-/35ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '91',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    body: {
+      userName: '18720357242',
+      password: 'cqhh0807',
+      autoLogin: true,
+      type: 'account'
+    }
+  }
+} TypeError: Cannot convert undefined or null to object
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:44:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:40)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:11
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+2020-11-09 17:01:04,489 INFO 83720 [-/::1/-/72ms POST /api/login] 200
+2020-11-09 17:01:59,544 ERROR 83720 [-/::1/-/2ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '88',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    params: {
+      userName: '18720357242',
+      password: '123',
+      autoLogin: true,
+      type: 'account'
+    }
+  }
+} TypeError: Cannot convert undefined or null to object
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:44:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:40)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:11
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+2020-11-09 17:01:59,544 INFO 83720 [-/::1/-/10ms POST /api/login] 200
+2020-11-09 17:02:45,429 ERROR 83720 [-/::1/-/2ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '82',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: 'cqhh0807',
+    autoLogin: true,
+    type: 'account'
+  }
+} TypeError: Cannot convert undefined or null to object
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:44:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:7:40)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:11
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+2020-11-09 17:02:45,429 INFO 83720 [-/::1/-/5ms POST /api/login] 200
+2020-11-09 17:16:53,173 WARN 84183 [-/::1/-/40ms POST /api/login] [param error]:  "username" is required
+2020-11-09 17:16:53,227 ERROR 84183 [-/::1/-/41ms POST /api/login] [server error]:  404 {} InternalServerError: "username" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:72:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:68:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-09 17:16:53,229 INFO 84183 [-/::1/-/96ms POST /api/login] 200
+2020-11-09 17:17:44,854 INFO 84231 [-/::1/-/122ms POST /api/login] 200
+2020-11-09 17:20:34,939 ERROR 84297 [-/::1/-/176ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '81',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: 'cqhh080',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-09 17:20:34,940 INFO 84297 [-/::1/-/218ms POST /api/login] 200
+2020-11-09 17:28:34,032 INFO 84297 [-/::1/-/82ms POST /api/login] 200
+2020-11-09 17:28:46,661 INFO 84297 [-/::1/-/51ms POST /api/login] 200
+2020-11-09 17:33:27,252 INFO 84297 [-/::1/-/131ms POST /api/login] 200
+2020-11-09 17:33:52,935 ERROR 84297 [-/::1/-/62ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '78',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: 'cqhh',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-09 17:33:52,935 INFO 84297 [-/::1/-/66ms POST /api/login] 200
+2020-11-09 17:35:57,155 ERROR 84297 [-/::1/-/152ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '75',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '1',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-09 17:35:57,155 INFO 84297 [-/::1/-/154ms POST /api/login] 200
+2020-11-09 17:45:09,118 ERROR 84297 [-/::1/-/212ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '82',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: 'cq123213',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-09 17:45:09,121 INFO 84297 [-/::1/-/232ms POST /api/login] 200
+2020-11-09 17:45:21,436 ERROR 84297 [-/::1/-/110ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '82',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: 'cq123213',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码输入错误5次，账户临时限制登录，请联系管理员
+    at User.errorCount (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:66:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:40:9)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PASSWORD_FIVE'
+}
+2020-11-09 17:45:21,436 INFO 84297 [-/::1/-/114ms POST /api/login] 200
+2020-11-09 17:46:23,340 ERROR 84297 [-/::1/-/5ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '80',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '123123',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码输入错误5次，账户临时限制登录，请联系管理员
+    at User.isLocked (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:54:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:25:7)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PASSWORD_FIVE'
+}
+2020-11-09 17:46:23,340 INFO 84297 [-/::1/-/7ms POST /api/login] 200
+2020-11-09 17:47:26,235 ERROR 84297 [-/::1/-/20ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '80',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '123123',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码输入错误5次，账户临时限制登录，请联系管理员
+    at User.isLocked (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:54:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:25:7)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PASSWORD_FIVE'
+}
+2020-11-09 17:47:26,235 INFO 84297 [-/::1/-/26ms POST /api/login] 200
+2020-11-09 17:47:58,599 ERROR 85179 [-/::1/-/33ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '80',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '123123',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码输入错误5次，账户临时限制登录，请联系管理员
+    at User.isLocked (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:54:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:25:7)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PASSWORD_FIVE'
+}
+2020-11-09 17:47:58,601 INFO 85179 [-/::1/-/57ms POST /api/login] 200
+2020-11-09 17:48:15,802 ERROR 85179 [-/::1/-/4ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '82',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: 'cqhh0807',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码输入错误5次，账户临时限制登录，请联系管理员
+    at User.isLocked (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:54:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:25:7)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PASSWORD_FIVE'
+}
+2020-11-09 17:48:15,802 INFO 85179 [-/::1/-/9ms POST /api/login] 200
+2020-11-09 19:30:52,023 ERROR 86903 [-/::1/-/43ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '82',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: 'cqhh0807',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码输入错误5次，账户临时限制登录，请联系管理员
+    at User.isLocked (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:54:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:25:7)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PASSWORD_FIVE'
+}
+2020-11-09 19:30:52,024 INFO 86903 [-/::1/-/206ms POST /api/login] 200
+2020-11-09 19:31:10,670 ERROR 86903 [-/127.0.0.1/-/111ms GET /api/unlock] [server error]:  404 {} SysError: path /api/unlock Not Found
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:14:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+    at bodyParser (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-bodyparser/index.js:95:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-static-cache/index.js:41:56 {
+  code: 404
+}
+2020-11-09 19:31:10,670 INFO 86903 [-/127.0.0.1/-/123ms GET /api/unlock] 200
+2020-11-09 19:31:32,810 ERROR 86903 [-/127.0.0.1/-/17ms POST /api/unlock] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': 'b63d91ea-abc7-421a-9a51-08740db02de6',
+    host: '127.0.0.1:7001',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '32',
+    cookie: 'WAVEVIEW_SESS=iaSq9yEcgi71Yfkk-K5DNgu_WqgT2yQSlWYUKiTbU3ZEpDtrCS7X1Z8r0trJveZh'
+  },
+  router: {},
+  query: {},
+  body: { userName: '18720357242' }
+} TypeError: Cannot read property 'body' of undefined
+    at UserController.unlock (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:42:40)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:11
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+2020-11-09 19:31:32,810 INFO 86903 [-/127.0.0.1/-/26ms POST /api/unlock] 200
+2020-11-09 19:33:02,782 ERROR 87004 [-/127.0.0.1/-/130ms POST /api/unlock] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': 'd046e24b-1616-4b1a-8ae6-f73d6dc0348f',
+    host: '127.0.0.1:7001',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '32',
+    cookie: 'WAVEVIEW_SESS=iaSq9yEcgi71Yfkk-K5DNgu_WqgT2yQSlWYUKiTbU3ZEpDtrCS7X1Z8r0trJveZh'
+  },
+  router: {},
+  query: {},
+  body: { userName: '18720357242' }
+} TypeError: service.unlock is not a function
+    at UserController.unlock (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:43:30)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:11
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+2020-11-09 19:33:02,784 INFO 87004 [-/127.0.0.1/-/156ms POST /api/unlock] 200
+2020-11-09 19:34:29,464 ERROR 87067 [-/127.0.0.1/-/56ms POST /api/unlock] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': 'b8e9dec4-9b41-4819-977d-4fc89c3f18fe',
+    host: '127.0.0.1:7001',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '32',
+    cookie: 'WAVEVIEW_SESS=iaSq9yEcgi71Yfkk-K5DNgu_WqgT2yQSlWYUKiTbU3ZEpDtrCS7X1Z8r0trJveZh'
+  },
+  router: {},
+  query: {},
+  body: { userName: '18720357242' }
+} SysError: 账户没有被锁
+    at User.unlock (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:106:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.unlock (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:43:16)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_USERNAME_NOT_LOCKED'
+}
+2020-11-09 19:34:29,466 INFO 87067 [-/127.0.0.1/-/83ms POST /api/unlock] 200
+2020-11-09 19:35:25,042 ERROR 87102 [-/127.0.0.1/-/45ms POST /api/unlock] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': '09666d47-0925-4354-b4f0-5f39cc73a073',
+    host: '127.0.0.1:7001',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '32',
+    cookie: 'WAVEVIEW_SESS=iaSq9yEcgi71Yfkk-K5DNgu_WqgT2yQSlWYUKiTbU3ZEpDtrCS7X1Z8r0trJveZh'
+  },
+  router: {},
+  query: {},
+  body: { userName: '18720357242' }
+} SysError: 账户没有被锁
+    at User.unlock (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:107:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.unlock (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:43:16)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_USERNAME_NOT_LOCKED'
+}
+2020-11-09 19:35:25,044 INFO 87102 [-/127.0.0.1/-/71ms POST /api/unlock] 200
+2020-11-09 19:36:13,997 INFO 87137 [-/127.0.0.1/-/67ms POST /api/unlock] 200
+2020-11-09 19:36:44,623 INFO 87137 [-/::1/-/118ms POST /api/login] 200
+2020-11-09 19:37:11,952 ERROR 87137 [-/::1/-/166ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '78',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: 'cqhh',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-09 19:37:11,953 INFO 87137 [-/::1/-/199ms POST /api/login] 200
+2020-11-09 19:37:29,513 INFO 87137 [-/::1/-/82ms POST /api/login] 200
+2020-11-09 19:42:19,224 ERROR 87137 [-/::1/-/172ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '78',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '123',
+    autoLogin: false,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-09 19:42:19,224 INFO 87137 [-/::1/-/175ms POST /api/login] 200
+2020-11-09 19:43:39,954 ERROR 87137 [-/::1/-/302ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '78',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '123',
+    autoLogin: false,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-09 19:43:39,954 INFO 87137 [-/::1/-/309ms POST /api/login] 200
+2020-11-09 19:46:19,733 ERROR 87137 [-/::1/-/107ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '78',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '123',
+    autoLogin: false,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-09 19:46:19,733 INFO 87137 [-/::1/-/110ms POST /api/login] 200
+2020-11-09 19:46:25,506 INFO 87137 [-/::1/-/46ms POST /api/login] 200
+2020-11-09 20:11:55,500 ERROR 88729 [-/127.0.0.1/-/7ms GET /] [server error]:  404 {} SysError: path / Not Found
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:14:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+    at bodyParser (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-bodyparser/index.js:95:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-static-cache/index.js:41:56 {
+  code: 404
+}
+2020-11-09 20:11:55,502 INFO 88729 [-/127.0.0.1/-/89ms GET /] 200
+2020-11-09 20:33:40,254 ERROR 88729 [-/::1/-/11ms GET /login] [server error]:  404 {} SysError: path /login Not Found
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:14:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+    at bodyParser (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-bodyparser/index.js:95:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-static-cache/index.js:41:56 {
+  code: 404
+}
+2020-11-09 20:33:40,255 INFO 88729 [-/::1/-/40ms GET /login] 200
+2020-11-09 20:34:04,718 ERROR 88729 [-/::1/-/1ms GET /admin/sub-page] [server error]:  404 {} SysError: path /admin/sub-page Not Found
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:14:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+    at bodyParser (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-bodyparser/index.js:95:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-static-cache/index.js:41:56 {
+  code: 404
+}
+2020-11-09 20:34:04,719 INFO 88729 [-/::1/-/5ms GET /admin/sub-page] 200
+2020-11-10 09:49:00,067 ERROR 90317 [-/127.0.0.1/-/10ms GET /] [server error]:  404 {} SysError: path / Not Found
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:14:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+    at bodyParser (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-bodyparser/index.js:95:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-static-cache/index.js:41:56 {
+  code: 404
+}
+2020-11-10 09:49:00,069 INFO 90317 [-/127.0.0.1/-/25ms GET /] 200
+2020-11-10 09:49:05,830 ERROR 90317 [-/127.0.0.1/-/2ms GET /login] [server error]:  404 {} SysError: path /login Not Found
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:14:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+    at bodyParser (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-bodyparser/index.js:95:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-static-cache/index.js:41:56 {
+  code: 404
+}
+2020-11-10 09:49:05,830 INFO 90317 [-/127.0.0.1/-/4ms GET /login] 200
+2020-11-10 09:49:21,508 ERROR 90317 [-/127.0.0.1/-/2ms GET /api/login] [server error]:  404 {} SysError: path /api/login Not Found
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:14:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+    at bodyParser (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-bodyparser/index.js:95:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-static-cache/index.js:41:56 {
+  code: 404
+}
+2020-11-10 09:49:21,508 INFO 90317 [-/127.0.0.1/-/4ms GET /api/login] 200
+2020-11-10 10:05:39,098 ERROR 90583 [-/::1/-/238ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '78',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '123',
+    autoLogin: false,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:46:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-10 10:05:39,100 INFO 90583 [-/::1/-/297ms POST /api/login] 200
+2020-11-10 10:06:52,531 ERROR 90583 [-/::1/-/68ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '77',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '123',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:46:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-10 10:06:52,531 INFO 90583 [-/::1/-/76ms POST /api/login] 200
+2020-11-10 10:06:56,269 ERROR 90583 [-/::1/-/48ms POST /api/login] [server error]:  404 {
+  headers: {
+    host: 'localhost:7001',
+    connection: 'keep-alive',
+    'content-length': '77',
+    accept: 'application/json, text/plain, */*',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    origin: 'http://localhost:8000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    referer: 'http://localhost:8000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'zh-CN,zh;q=0.9'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '123',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:46:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:11:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:79:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-10 10:06:56,269 INFO 90583 [-/::1/-/50ms POST /api/login] 200
+2020-11-10 10:07:06,259 INFO 90583 [-/::1/-/39ms POST /api/login] 200
+2020-11-10 10:21:26,409 INFO 90583 [-/::1/-/193ms POST /api/login] 200
+2020-11-10 10:24:46,200 INFO 90583 [-/::1/-/66ms POST /api/login] 200
+2020-11-10 10:38:59,274 ERROR 91477 [-/::1/-/9ms GET /api/currentUser] [server error]:  404 {} SysError: path /api/currentUser Not Found
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:14:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+    at bodyParser (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-bodyparser/index.js:95:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-static-cache/index.js:41:56 {
+  code: 404
+}
+2020-11-10 10:38:59,275 INFO 91477 [-/::1/-/39ms GET /api/currentUser] 200
+2020-11-10 10:41:40,318 ERROR 91548 [-/::1/-/11ms GET /api/currentUser] [server error]:  404 {} SysError: 用户未登录或超时
+    at User.get getUser [as getUser] (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:105:13)
+    at UserController.currentUser (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:65:32)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32) {
+  code: 'ERROR_USER_NOT_LOGGED'
+}
+2020-11-10 10:41:40,319 INFO 91548 [-/::1/-/104ms GET /api/currentUser] 200
+2020-11-10 10:43:56,440 INFO 91548 [-/127.0.0.1/-/164ms POST /api/login] 200
+2020-11-10 10:44:09,045 ERROR 91548 [-/::1/-/1ms GET /api/currentUser] [server error]:  404 {} SysError: 用户未登录或超时
+    at User.get getUser [as getUser] (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:105:13)
+    at UserController.currentUser (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:65:32)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32) {
+  code: 'ERROR_USER_NOT_LOGGED'
+}
+2020-11-10 10:44:09,045 INFO 91548 [-/::1/-/5ms GET /api/currentUser] 200
+2020-11-10 10:49:45,062 INFO 91747 [-/127.0.0.1/-/168ms POST /api/login] 200
+2020-11-10 10:49:55,116 ERROR 91747 [-/::1/-/1ms GET /api/currentUser] [server error]:  404 {} SysError: 用户未登录或超时
+    at User.get getUser [as getUser] (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:105:13)
+    at UserController.currentUser (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:65:32)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32) {
+  code: 'ERROR_USER_NOT_LOGGED'
+}
+2020-11-10 10:49:55,116 INFO 91747 [-/::1/-/24ms GET /api/currentUser] 200
+2020-11-10 10:51:48,216 INFO 91825 [-/127.0.0.1/-/273ms POST /api/login] 200
+2020-11-10 10:51:55,289 INFO 91837 [-/127.0.0.1/-/154ms POST /api/login] 200
+2020-11-10 10:59:19,187 INFO 91900 [-/127.0.0.1/-/218ms POST /api/login] 200
+2020-11-10 11:00:23,076 INFO 92042 [-/127.0.0.1/-/352ms POST /api/login] 200
+2020-11-10 11:04:09,753 INFO 92148 [-/127.0.0.1/-/160ms POST /api/login] 200
+2020-11-10 11:04:22,006 ERROR 92148 [-/::1/-/1ms GET /api/currentUser] [server error]:  404 {} SysError: 用户未登录或超时
+    at User.get getUser [as getUser] (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:104:13)
+    at UserController.currentUser (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:66:32)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32) {
+  code: 'ERROR_USER_NOT_LOGGED'
+}
+2020-11-10 11:04:22,006 INFO 92148 [-/::1/-/19ms GET /api/currentUser] 200
+2020-11-10 11:06:55,582 ERROR 92216 [-/::1/-/10ms GET /api/currentUser] [server error]:  404 {} SysError: 用户未登录或超时
+    at User.get getUser [as getUser] (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:104:13)
+    at UserController.currentUser (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:68:32)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32) {
+  code: 'ERROR_USER_NOT_LOGGED'
+}
+2020-11-10 11:06:55,584 INFO 92216 [-/::1/-/57ms GET /api/currentUser] 200
+2020-11-10 11:07:02,188 INFO 92216 [-/127.0.0.1/-/198ms POST /api/login] 200
+2020-11-10 11:07:20,555 INFO 92291 [-/127.0.0.1/-/178ms POST /api/login] 200
+2020-11-10 11:09:19,275 ERROR 92373 [-/::1/-/7ms GET /api/currentUser] [server error]:  404 {} SysError: 用户未登录或超时
+    at User.get getUser [as getUser] (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:104:13)
+    at User.checkLogin (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:99:17)
+    at UserController.currentUser (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:65:38)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18 {
+  code: 'ERROR_USER_NOT_LOGGED'
+}
+2020-11-10 11:09:19,276 INFO 92373 [-/::1/-/39ms GET /api/currentUser] 200
+2020-11-10 11:09:21,233 ERROR 92373 [-/::1/-/1ms GET /api/currentUser] [server error]:  404 {} SysError: 用户未登录或超时
+    at User.get getUser [as getUser] (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:104:13)
+    at User.checkLogin (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:99:17)
+    at UserController.currentUser (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:65:38)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18 {
+  code: 'ERROR_USER_NOT_LOGGED'
+}
+2020-11-10 11:09:21,234 INFO 92373 [-/::1/-/2ms GET /api/currentUser] 200
+2020-11-10 11:09:26,081 INFO 92373 [-/127.0.0.1/-/271ms POST /api/login] 200
+2020-11-10 11:09:29,062 ERROR 92373 [-/::1/-/1ms GET /api/currentUser] [server error]:  404 {} SysError: 用户未登录或超时
+    at User.get getUser [as getUser] (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:104:13)
+    at User.checkLogin (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:99:17)
+    at UserController.currentUser (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:65:38)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18 {
+  code: 'ERROR_USER_NOT_LOGGED'
+}
+2020-11-10 11:09:29,062 INFO 92373 [-/::1/-/2ms GET /api/currentUser] 200
+2020-11-10 11:11:15,030 ERROR 92435 [-/::1/-/6ms GET /api/currentUser] [server error]:  404 {} SysError: 用户未登录或超时
+    at User.get getUser [as getUser] (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:104:13)
+    at User.checkLogin (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:99:17)
+    at UserController.currentUser (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:65:38)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18 {
+  code: 'ERROR_USER_NOT_LOGGED'
+}
+2020-11-10 11:11:15,031 INFO 92435 [-/::1/-/36ms GET /api/currentUser] 200
+2020-11-10 11:11:18,940 INFO 92435 [-/127.0.0.1/-/202ms POST /api/login] 200
+2020-11-10 11:11:21,532 ERROR 92435 [-/::1/-/0ms GET /api/currentUser] [server error]:  404 {} SysError: 用户未登录或超时
+    at User.get getUser [as getUser] (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:104:13)
+    at User.checkLogin (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:99:17)
+    at UserController.currentUser (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:65:38)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18 {
+  code: 'ERROR_USER_NOT_LOGGED'
+}
+2020-11-10 11:11:21,532 INFO 92435 [-/::1/-/2ms GET /api/currentUser] 200
+2020-11-10 11:24:14,762 ERROR 92574 [-/::1/-/7ms GET /api/currentUser] [server error]:  404 {} SysError: 用户未登录或超时
+    at User.get getUser [as getUser] (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:104:13)
+    at User.checkLogin (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:99:17)
+    at UserController.currentUser (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:65:38)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18 {
+  code: 'ERROR_USER_NOT_LOGGED'
+}
+2020-11-10 11:24:14,764 INFO 92574 [-/::1/-/49ms GET /api/currentUser] 200
+2020-11-10 11:25:08,843 ERROR 92739 [-/::1/-/8ms GET /api/currentUser] [server error]:  404 {} SysError: 用户未登录或超时
+    at User.get getUser [as getUser] (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:105:13)
+    at User.checkLogin (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:99:17)
+    at UserController.currentUser (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:65:38)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18 {
+  code: 'ERROR_USER_NOT_LOGGED'
+}
+2020-11-10 11:25:08,844 INFO 92739 [-/::1/-/56ms GET /api/currentUser] 200
+2020-11-10 11:26:15,919 INFO 92739 [-/::1/-/152ms POST /api/login] 200
+2020-11-10 11:26:27,757 INFO 92739 [-/::1/-/12ms GET /api/currentUser] 200
+2020-11-10 14:48:43,815 WARN 95644 [-/127.0.0.1/-/34ms POST /api/login] [param error]:  "userName" is required
+2020-11-10 14:48:43,854 ERROR 95644 [-/127.0.0.1/-/37ms POST /api/login] [server error]:  404 {} InternalServerError: "userName" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:72:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:68:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-10 14:48:43,856 INFO 95644 [-/127.0.0.1/-/76ms POST /api/login] 200
+2020-11-10 14:51:13,100 WARN 95644 [-/127.0.0.1/-/8ms POST /api/login] [param error]:  "userName" is required
+2020-11-10 14:51:13,103 ERROR 95644 [-/127.0.0.1/-/9ms POST /api/login] [server error]:  404 {} InternalServerError: "userName" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:72:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:68:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-10 14:51:13,103 INFO 95644 [-/127.0.0.1/-/11ms POST /api/login] 200
+2020-11-10 14:51:56,556 WARN 95644 [-/127.0.0.1/-/1ms POST /api/login] [param error]:  "userName" is required
+2020-11-10 14:51:56,561 ERROR 95644 [-/127.0.0.1/-/4ms POST /api/login] [server error]:  404 {} InternalServerError: "userName" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:72:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:68:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-10 14:51:56,561 INFO 95644 [-/127.0.0.1/-/6ms POST /api/login] 200
+2020-11-10 14:52:46,042 WARN 95644 [-/127.0.0.1/-/7ms POST /api/login] [param error]:  "userName" is required
+2020-11-10 14:52:46,049 ERROR 95644 [-/127.0.0.1/-/9ms POST /api/login] [server error]:  404 {} InternalServerError: "userName" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:72:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:68:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-10 14:52:46,049 INFO 95644 [-/127.0.0.1/-/14ms POST /api/login] 200
+2020-11-10 14:52:55,593 WARN 95644 [-/127.0.0.1/-/1ms POST /api/login] [param error]:  "userName" is required
+2020-11-10 14:52:55,596 ERROR 95644 [-/127.0.0.1/-/1ms POST /api/login] [server error]:  404 {} InternalServerError: "userName" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:72:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:68:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-10 14:52:55,653 INFO 95644 [-/127.0.0.1/-/4ms POST /api/login] 200
+2020-11-10 14:54:27,949 WARN 95644 [-/127.0.0.1/-/14ms POST /api/login] [param error]:  "userName" is required
+2020-11-10 14:54:27,966 ERROR 95644 [-/127.0.0.1/-/20ms POST /api/login] [server error]:  404 {} InternalServerError: "userName" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:72:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:68:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-10 14:54:27,967 INFO 95644 [-/127.0.0.1/-/36ms POST /api/login] 200
+2020-11-10 14:54:50,911 WARN 95644 [-/127.0.0.1/-/18ms POST /api/login?userName=18720357242&password=cqhh0807&autoLogin=true&type=account] [param error]:  "userName" is required
+2020-11-10 14:54:50,912 ERROR 95644 [-/127.0.0.1/-/18ms POST /api/login?userName=18720357242&password=cqhh0807&autoLogin=true&type=account] [server error]:  404 {} InternalServerError: "userName" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:72:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:68:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-10 14:54:50,912 INFO 95644 [-/127.0.0.1/-/19ms POST /api/login?userName=18720357242&password=cqhh0807&autoLogin=true&type=account] 200
+2020-11-10 15:00:09,728 WARN 96593 [-/127.0.0.1/-/16ms POST /api/login] [param error]:  "userName" is required
+2020-11-10 15:00:09,744 ERROR 96593 [-/127.0.0.1/-/17ms POST /api/login] [server error]:  404 {} InternalServerError: "userName" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:72:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:68:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-10 15:00:09,746 INFO 96593 [-/127.0.0.1/-/34ms POST /api/login] 200
+2020-11-10 15:00:56,479 WARN 96593 [-/127.0.0.1/-/8ms POST /api/login?userName=18720357242&password=cqhh0807&autoLogin=true&type=account] [param error]:  "userName" is required
+2020-11-10 15:00:56,492 ERROR 96593 [-/127.0.0.1/-/8ms POST /api/login?userName=18720357242&password=cqhh0807&autoLogin=true&type=account] [server error]:  404 {} InternalServerError: "userName" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:72:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:68:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-10 15:00:56,492 INFO 96593 [-/127.0.0.1/-/21ms POST /api/login?userName=18720357242&password=cqhh0807&autoLogin=true&type=account] 200
+2020-11-10 15:02:28,145 WARN 96593 [-/127.0.0.1/-/12ms POST /api/login] [param error]:  "userName" is required
+2020-11-10 15:02:28,149 ERROR 96593 [-/127.0.0.1/-/13ms POST /api/login] [server error]:  404 {} InternalServerError: "userName" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:72:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:68:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-10 15:02:28,150 INFO 96593 [-/127.0.0.1/-/18ms POST /api/login] 200
+2020-11-10 15:06:13,540 INFO 96593 [-/127.0.0.1/-/377ms POST /api/login] 200
+2020-11-10 15:06:23,956 INFO 96593 [-/127.0.0.1/-/130ms POST /api/login] 200
+2020-11-10 15:06:49,238 INFO 96593 [-/127.0.0.1/-/107ms POST /api/login] 200
+2020-11-10 15:08:30,507 INFO 96829 [-/127.0.0.1/-/349ms POST /api/login] 200
+2020-11-10 15:08:57,087 INFO 96829 [-/127.0.0.1/-/217ms POST /api/login] 200
+2020-11-10 15:09:29,573 INFO 96829 [-/127.0.0.1/-/157ms POST /api/login] 200
+2020-11-10 15:12:27,610 INFO 96829 [-/127.0.0.1/-/161ms POST /api/login] 200
+2020-11-10 15:13:42,121 INFO 96829 [-/127.0.0.1/-/50ms POST /api/login] 200
+2020-11-10 15:14:36,780 INFO 96829 [-/127.0.0.1/-/129ms POST /api/login] 200
+2020-11-10 15:15:52,125 INFO 96829 [-/127.0.0.1/-/117ms POST /api/login] 200
+2020-11-10 15:17:05,482 INFO 96829 [-/127.0.0.1/-/105ms POST /api/login] 200
+2020-11-10 15:17:26,317 INFO 96829 [-/127.0.0.1/-/126ms POST /api/login] 200
+2020-11-10 15:17:57,661 INFO 96829 [-/127.0.0.1/-/156ms POST /api/login] 200
+2020-11-10 15:31:24,120 INFO 96829 [-/127.0.0.1/-/94ms POST /api/login] 200
+2020-11-10 15:32:17,342 INFO 96829 [-/127.0.0.1/-/237ms POST /api/login] 200
+2020-11-10 15:42:02,893 INFO 96829 [-/127.0.0.1/-/315ms POST /api/login] 200
+2020-11-10 15:46:32,282 INFO 96829 [-/127.0.0.1/-/81ms POST /api/login] 200
+2020-11-10 15:47:53,532 INFO 96829 [-/127.0.0.1/-/247ms POST /api/login] 200
+2020-11-10 15:49:06,977 INFO 96829 [-/127.0.0.1/-/54ms POST /api/login] 200
+2020-11-10 15:53:58,641 INFO 96829 [-/127.0.0.1/-/65ms POST /api/login] 200
+2020-11-10 15:57:34,560 INFO 96829 [-/127.0.0.1/-/210ms POST /api/login] 200
+2020-11-10 16:38:18,642 INFO 98234 [-/127.0.0.1/-/615ms POST /api/login] 200
+2020-11-10 16:39:00,157 INFO 98234 [-/127.0.0.1/-/131ms POST /api/login] 200
+2020-11-10 16:39:14,905 INFO 98234 [-/127.0.0.1/-/69ms POST /api/login] 200
+2020-11-10 16:42:05,847 INFO 98234 [-/127.0.0.1/-/214ms POST /api/login] 200
+2020-11-10 16:43:02,764 INFO 98234 [-/127.0.0.1/-/178ms POST /api/login] 200
+2020-11-10 16:45:10,321 INFO 98234 [-/127.0.0.1/-/170ms POST /api/login] 200
+2020-11-10 16:45:21,604 INFO 98234 [-/127.0.0.1/-/129ms POST /api/login] 200
+2020-11-12 14:23:49,809 INFO 2967 [-/127.0.0.1/-/279ms POST /api/login] 200
+2020-11-12 14:28:13,338 INFO 2967 [-/127.0.0.1/-/92ms POST /api/login] 200
+2020-11-12 14:28:20,487 ERROR 2967 [-/127.0.0.1/-/42ms POST /api/login] [server error]:  404 {
+  headers: {
+    cookie: 'isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7; MY_SERVER=DofIOnyOzRedor4mycVFpAH1rQi_0bCga4ZUtsxxlutkFlm-lUyHTh8UgWUYiYMt',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://localhost:8000/user/login?redirect=http%3A%2F%2Flocalhost%3A8000%2Fwelcome',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    origin: 'http://localhost:8000',
+    'content-type': 'application/json;charset=UTF-8',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    accept: 'application/json',
+    'content-length': '77',
+    connection: 'close',
+    host: 'localhost:9987'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '123',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:46:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:16:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:78:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-12 14:28:20,487 INFO 2967 [-/127.0.0.1/-/103ms POST /api/login] 200
+2020-11-12 14:29:52,069 INFO 2967 [-/127.0.0.1/-/133ms POST /api/login] 200
+2020-11-12 14:36:04,607 INFO 2967 [-/127.0.0.1/-/139ms POST /api/login] 200
+2020-11-12 14:54:31,048 INFO 4283 [-/127.0.0.1/-/227ms POST /api/login] 200
+2020-11-12 14:55:13,382 INFO 4301 [-/127.0.0.1/-/212ms POST /api/login] 200
+2020-11-12 14:56:13,624 INFO 4301 [-/127.0.0.1/-/94ms POST /api/login] 200
+2020-11-12 14:56:49,979 INFO 4301 [-/127.0.0.1/-/58ms POST /api/login] 200
+2020-11-12 15:28:58,270 WARN 6946 [-/127.0.0.1/-/45ms POST /api/register] nodejs.SyntaxError: Unexpected token } in JSON at position 89, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (/Users/chengqihan/workspace/my-app/my-server/node_modules/co-body/lib/json.js:57:17)
+    at AsyncFunction.module.exports [as json] (/Users/chengqihan/workspace/my-app/my-server/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at parseBody (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-bodyparser/index.js:100:14)
+    at bodyParser (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-bodyparser/index.js:85:19)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-static-cache/index.js:39:63
+    at notfound (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/app/middleware/notfound.js:5:5)
+    at meta (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg/app/middleware/meta.js:17:5)
+    at cors (/Users/chengqihan/workspace/my-app/my-server/node_modules/@koa/cors/index.js:56:32)
+status: 400
+body: "{\n    \"mobile\":\"18720357242\",\n    \"password\":\"cqhh0807\",\n    \"currentAuthority\":\"admin\",\n}"
+pid: 6946
+hostname: chengqihandeMacBook-Air.local
+
+2020-11-12 15:29:19,065 ERROR 6946 [-/127.0.0.1/-/153ms POST /api/register] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': 'b15227c1-be8f-4f1a-8cda-c6cd3ed848ee',
+    host: 'localhost:9987',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '89'
+  },
+  router: {},
+  query: {},
+  body: {
+    mobile: '18720357242',
+    password: 'cqhh0807',
+    currentAuthority: 'admin'
+  }
+} ValidationError [SequelizeValidationError]: notNull Violation: user.userName cannot be null
+    at InstanceValidator._validate (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at InstanceValidator._validateAndRunHooks (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/instance-validator.js:111:7)
+    at InstanceValidator.validate (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/instance-validator.js:93:12)
+    at User.save (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/model.js:3877:7)
+    at Function.create (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/model.js:2207:12)
+    at User.register (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:72:20)
+    at UserController.register (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:36:23)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:78:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7 {
+  errors: [
+    ValidationErrorItem {
+      message: 'user.userName cannot be null',
+      type: 'notNull Violation',
+      path: 'userName',
+      value: null,
+      origin: 'CORE',
+      instance: [user],
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ]
+}
+2020-11-12 15:29:19,065 INFO 6946 [-/127.0.0.1/-/232ms POST /api/register] 200
+2020-11-12 15:29:31,242 WARN 6946 [-/127.0.0.1/-/2ms POST /api/register] [param error]:  "mobile" is required
+2020-11-12 15:29:31,262 ERROR 6946 [-/127.0.0.1/-/6ms POST /api/register] [server error]:  404 {} InternalServerError: "mobile" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:71:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:67:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-12 15:29:31,262 INFO 6946 [-/127.0.0.1/-/23ms POST /api/register] 200
+2020-11-12 15:29:58,523 ERROR 6991 [-/127.0.0.1/-/164ms POST /api/register] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': 'e77e8b61-a0f3-4a8d-bef2-f46240cbf84c',
+    host: 'localhost:9987',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '91'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: 'cqhh0807',
+    currentAuthority: 'admin'
+  }
+} ValidationError [SequelizeValidationError]: notNull Violation: user.mobile cannot be null,
+notNull Violation: user.userName cannot be null
+    at InstanceValidator._validate (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at InstanceValidator._validateAndRunHooks (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/instance-validator.js:111:7)
+    at InstanceValidator.validate (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/instance-validator.js:93:12)
+    at User.save (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/model.js:3877:7)
+    at Function.create (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/model.js:2207:12)
+    at User.register (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:72:20)
+    at UserController.register (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:36:23)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:78:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7 {
+  errors: [
+    ValidationErrorItem {
+      message: 'user.mobile cannot be null',
+      type: 'notNull Violation',
+      path: 'mobile',
+      value: null,
+      origin: 'CORE',
+      instance: [user],
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    },
+    ValidationErrorItem {
+      message: 'user.userName cannot be null',
+      type: 'notNull Violation',
+      path: 'userName',
+      value: null,
+      origin: 'CORE',
+      instance: [user],
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ]
+}
+2020-11-12 15:29:58,525 INFO 6991 [-/127.0.0.1/-/213ms POST /api/register] 200
+2020-11-12 15:31:19,105 ERROR 7065 [-/127.0.0.1/-/146ms POST /api/register] [server error]:  404 {
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.26.5',
+    accept: '*/*',
+    'postman-token': '05f99946-4051-4dfa-8393-ae74e8680260',
+    host: 'localhost:9987',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '91'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: 'cqhh0807',
+    currentAuthority: 'admin'
+  }
+} ValidationError [SequelizeValidationError]: notNull Violation: user.userName cannot be null
+    at InstanceValidator._validate (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at InstanceValidator._validateAndRunHooks (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/instance-validator.js:111:7)
+    at InstanceValidator.validate (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/instance-validator.js:93:12)
+    at User.save (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/model.js:3877:7)
+    at Function.create (/Users/chengqihan/workspace/my-app/my-server/node_modules/sequelize/lib/model.js:2207:12)
+    at User.register (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:72:20)
+    at UserController.register (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:36:23)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:78:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7 {
+  errors: [
+    ValidationErrorItem {
+      message: 'user.userName cannot be null',
+      type: 'notNull Violation',
+      path: 'userName',
+      value: null,
+      origin: 'CORE',
+      instance: [user],
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ]
+}
+2020-11-12 15:31:19,106 INFO 7065 [-/127.0.0.1/-/182ms POST /api/register] 200
+2020-11-12 15:32:01,552 INFO 7119 [-/127.0.0.1/-/172ms POST /api/register] 200
+2020-11-12 15:32:26,506 ERROR 7119 [-/127.0.0.1/-/55ms POST /api/login] [server error]:  404 {
+  headers: {
+    cookie: 'isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7; MY_SERVER=DofIOnyOzRedor4mycVFpAH1rQi_0bCga4ZUtsxxlutkFlm-lUyHTh8UgWUYiYMt',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://localhost:8000/user/login?redirect=http%3A%2F%2Flocalhost%3A8000%2Fwelcome',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    origin: 'http://localhost:8000',
+    'content-type': 'application/json;charset=UTF-8',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    accept: 'application/json',
+    'content-length': '83',
+    connection: 'close',
+    host: 'localhost:9987'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: 'cqhh0807',
+    autoLogin: false,
+    type: 'account'
+  }
+} SysError: 该号码未注册
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:32:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:16:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:78:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PHONE_NOT_EXISTS'
+}
+2020-11-12 15:32:26,506 INFO 7119 [-/127.0.0.1/-/99ms POST /api/login] 200
+2020-11-12 15:34:18,522 INFO 7168 [-/127.0.0.1/-/208ms POST /api/login] 200
+2020-11-12 15:36:36,184 INFO 7168 [-/127.0.0.1/-/132ms POST /api/login] 200
+2020-11-12 16:05:29,902 INFO 7168 [-/127.0.0.1/-/209ms POST /api/login] 200
+2020-11-12 16:09:11,581 INFO 8027 [-/127.0.0.1/-/297ms POST /api/login] 200
+2020-11-12 16:12:17,986 INFO 8027 [-/127.0.0.1/-/251ms POST /api/login] 200
+2020-11-12 16:13:13,713 INFO 8027 [-/127.0.0.1/-/149ms POST /api/login] 200
+2020-11-12 16:14:32,274 INFO 8027 [-/127.0.0.1/-/189ms POST /api/login] 200
+2020-11-12 16:44:42,471 INFO 8027 [-/127.0.0.1/-/195ms POST /api/login] 200
+2020-11-12 16:48:36,510 INFO 8027 [-/127.0.0.1/-/305ms POST /api/login] 200
+2020-11-12 16:50:22,734 INFO 8027 [-/127.0.0.1/-/174ms POST /api/login] 200
+2020-11-12 16:55:09,969 INFO 8027 [-/127.0.0.1/-/169ms POST /api/login] 200
+2020-11-12 16:56:13,073 INFO 8027 [-/127.0.0.1/-/171ms POST /api/login] 200
+2020-11-12 16:56:35,252 INFO 8027 [-/127.0.0.1/-/387ms POST /api/register] 200
+2020-11-12 16:56:45,812 INFO 8027 [-/127.0.0.1/-/88ms POST /api/login] 200
+2020-11-12 17:00:10,317 INFO 8027 [-/127.0.0.1/-/198ms POST /api/login] 200
+2020-11-12 17:00:28,658 ERROR 8027 [-/127.0.0.1/-/272ms POST /api/login] [server error]:  404 {
+  headers: {
+    cookie: 'isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7; MY_SERVER=DofIOnyOzRedor4mycVFpAH1rQi_0bCga4ZUtsxxlutkFlm-lUyHTh8UgWUYiYMt',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://localhost:8000/user/login?redirect=http%3A%2F%2Flocalhost%3A8000%2Flist',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    origin: 'http://localhost:8000',
+    'content-type': 'application/json;charset=UTF-8',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    accept: 'application/json',
+    'content-length': '76',
+    connection: 'close',
+    host: 'localhost:9987'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '11',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:38:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:16:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:78:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-12 17:00:28,661 INFO 8027 [-/127.0.0.1/-/453ms POST /api/login] 200
+2020-11-13 16:39:35,981 INFO 70494 [-/127.0.0.1/-/380ms POST /api/login] 200
+2020-11-13 16:39:46,172 ERROR 70494 [-/127.0.0.1/-/87ms POST /api/login] [server error]:  404 {
+  headers: {
+    cookie: 'isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7; MY_SERVER=DofIOnyOzRedor4mycVFpAH1rQi_0bCga4ZUtsxxlutkFlm-lUyHTh8UgWUYiYMt',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://localhost:8000/user/login?redirect=http%3A%2F%2Flocalhost%3A8000%2Fwelcome',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    origin: 'http://localhost:8000',
+    'content-type': 'application/json;charset=UTF-8',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    accept: 'application/json',
+    'content-length': '77',
+    connection: 'close',
+    host: 'localhost:9987'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '123',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:38:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:16:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:78:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-13 16:39:46,173 INFO 70494 [-/127.0.0.1/-/144ms POST /api/login] 200
+2020-11-13 16:42:06,441 ERROR 70494 [-/127.0.0.1/-/96ms POST /api/login] [server error]:  404 {
+  headers: {
+    cookie: 'isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7; MY_SERVER=DofIOnyOzRedor4mycVFpAH1rQi_0bCga4ZUtsxxlutkFlm-lUyHTh8UgWUYiYMt',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://localhost:8000/user/login?redirect=http%3A%2F%2Flocalhost%3A8000%2Fwelcome',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    origin: 'http://localhost:8000',
+    'content-type': 'application/json;charset=UTF-8',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    accept: 'application/json',
+    'content-length': '71',
+    connection: 'close',
+    host: 'localhost:9987'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: 'admin',
+    password: '123',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 该号码未注册
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:32:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:16:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:78:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PHONE_NOT_EXISTS'
+}
+2020-11-13 16:42:06,441 INFO 70494 [-/127.0.0.1/-/118ms POST /api/login] 200
+2020-11-13 16:42:39,839 ERROR 70494 [-/127.0.0.1/-/255ms POST /api/login] [server error]:  404 {
+  headers: {
+    cookie: 'isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7; MY_SERVER=DofIOnyOzRedor4mycVFpAH1rQi_0bCga4ZUtsxxlutkFlm-lUyHTh8UgWUYiYMt',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://localhost:8000/user/login?redirect=http%3A%2F%2Flocalhost%3A8000%2Fwelcome',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    origin: 'http://localhost:8000',
+    'content-type': 'application/json;charset=UTF-8',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    accept: 'application/json',
+    'content-length': '71',
+    connection: 'close',
+    host: 'localhost:9987'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: 'admin',
+    password: '123',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 该号码未注册
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:32:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:16:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:78:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PHONE_NOT_EXISTS'
+}
+2020-11-13 16:42:39,839 INFO 70494 [-/127.0.0.1/-/263ms POST /api/login] 200
+2020-11-13 16:47:25,789 ERROR 70494 [-/127.0.0.1/-/120ms POST /api/login] [server error]:  404 {
+  headers: {
+    cookie: 'isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7; MY_SERVER=DofIOnyOzRedor4mycVFpAH1rQi_0bCga4ZUtsxxlutkFlm-lUyHTh8UgWUYiYMt',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://localhost:8000/user/login?redirect=http%3A%2F%2Flocalhost%3A8000%2Fwelcome',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    origin: 'http://localhost:8000',
+    'content-type': 'application/json;charset=UTF-8',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    accept: 'application/json',
+    'content-length': '72',
+    connection: 'close',
+    host: 'localhost:9987'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: 'admin',
+    password: '1231',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 该号码未注册
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:32:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:16:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:78:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5) {
+  code: 'ERROR_PHONE_NOT_EXISTS'
+}
+2020-11-13 16:47:25,790 INFO 70494 [-/127.0.0.1/-/125ms POST /api/login] 200
+2020-11-13 17:08:23,371 INFO 70494 [-/127.0.0.1/-/125ms POST /api/login] 200
+2020-11-16 14:37:50,708 ERROR 5807 [-/127.0.0.1/-/370ms POST /api/login] [server error]:  404 {
+  headers: {
+    cookie: 'isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7; MY_SERVER=DofIOnyOzRedor4mycVFpAH1rQi_0bCga4ZUtsxxlutkFlm-lUyHTh8UgWUYiYMt',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://localhost:8000/user/login?redirect=http%3A%2F%2Flocalhost%3A8000%2Fwelcome',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    origin: 'http://localhost:8000',
+    'content-type': 'application/json;charset=UTF-8',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+    accept: 'application/json',
+    'content-length': '77',
+    connection: 'close',
+    host: 'localhost:9987'
+  },
+  router: {},
+  query: {},
+  body: {
+    userName: '18720357242',
+    password: '123',
+    autoLogin: true,
+    type: 'account'
+  }
+} SysError: 密码不正确
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:38:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:16:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:78:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PASSWORD'
+}
+2020-11-16 14:37:50,709 INFO 5807 [-/127.0.0.1/-/450ms POST /api/login] 200
+2020-11-16 14:37:59,119 INFO 5807 [-/127.0.0.1/-/76ms POST /api/login] 200
+2020-11-16 14:38:12,928 INFO 5807 [-/127.0.0.1/-/91ms POST /api/login] 200
+2020-11-16 14:52:13,120 INFO 5807 [-/127.0.0.1/-/68ms POST /api/login] 200
+2020-11-16 14:52:46,163 INFO 5807 [-/127.0.0.1/-/71ms POST /api/login] 200
+2020-11-16 14:56:20,425 INFO 5807 [-/127.0.0.1/-/94ms GET /api/currentUser] 200
+2020-11-16 14:56:26,333 INFO 5807 [-/127.0.0.1/-/286ms POST /api/login] 200
+2020-11-16 14:56:26,597 INFO 5807 [-/127.0.0.1/-/16ms GET /api/currentUser] 200
+2020-11-16 14:57:04,379 INFO 5807 [-/127.0.0.1/-/80ms POST /api/login] 200
+2020-11-16 14:57:04,668 INFO 5807 [-/127.0.0.1/-/12ms GET /api/currentUser] 200
+2020-11-16 15:01:03,320 INFO 5807 [-/127.0.0.1/-/213ms POST /api/login] 200
+2020-11-16 15:01:03,780 INFO 5807 [-/127.0.0.1/-/8ms GET /api/currentUser] 200
+2020-11-16 15:01:50,952 INFO 5807 [-/127.0.0.1/-/177ms POST /api/login] 200
+2020-11-16 15:01:51,250 INFO 5807 [-/127.0.0.1/-/10ms GET /api/currentUser] 200
+2020-11-16 15:03:32,634 INFO 5807 [-/127.0.0.1/-/40ms POST /api/login] 200
+2020-11-16 15:03:32,798 INFO 5807 [-/127.0.0.1/-/11ms GET /api/currentUser] 200
+2020-11-18 18:18:39,975 WARN 11870 [-/127.0.0.1/-/161ms POST /api/login] [param error]:  "userName" is required
+2020-11-18 18:18:40,011 ERROR 11870 [-/127.0.0.1/-/167ms POST /api/login] [server error]:  404 {} InternalServerError: "userName" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:71:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:67:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-18 18:18:40,013 INFO 11870 [-/127.0.0.1/-/200ms POST /api/login] 200
+2020-11-18 18:24:10,126 WARN 11870 [-/127.0.0.1/-/12ms POST /api/login] [param error]:  "userName" is required
+2020-11-18 18:24:10,129 ERROR 11870 [-/127.0.0.1/-/13ms POST /api/login] [server error]:  404 {} InternalServerError: "userName" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:71:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:67:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-18 18:24:10,129 INFO 11870 [-/127.0.0.1/-/15ms POST /api/login] 200
+2020-11-18 18:25:07,973 WARN 11870 [-/127.0.0.1/-/16ms POST /api/login] [param error]:  "autoLogin" is required
+2020-11-18 18:25:07,978 ERROR 11870 [-/127.0.0.1/-/16ms POST /api/login] [server error]:  404 {} InternalServerError: "autoLogin" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:71:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:67:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-18 18:25:07,978 INFO 11870 [-/127.0.0.1/-/21ms POST /api/login] 200
+2020-11-18 18:26:05,926 WARN 11870 [-/127.0.0.1/-/17ms POST /api/login] [param error]:  "autoLogin" is required
+2020-11-18 18:26:05,929 ERROR 11870 [-/127.0.0.1/-/17ms POST /api/login] [server error]:  404 {} InternalServerError: "autoLogin" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:71:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:67:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-18 18:26:05,929 INFO 11870 [-/127.0.0.1/-/20ms POST /api/login] 200
+2020-11-18 18:26:51,460 WARN 11870 [-/127.0.0.1/-/4ms POST /api/login] [param error]:  "type" is required
+2020-11-18 18:26:51,461 ERROR 11870 [-/127.0.0.1/-/5ms POST /api/login] [server error]:  404 {} InternalServerError: "type" is required
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:71:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:67:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-18 18:26:51,462 INFO 11870 [-/127.0.0.1/-/7ms POST /api/login] 200
+2020-11-18 18:29:41,780 ERROR 12692 [-/127.0.0.1/-/93ms POST /api/login] [server error]:  404 {
+  headers: {
+    cookie: 'isg=BBAQz4QoezHAnCc3Rb5WTG-J4Vhi2fQjqkj5ewrgTWs-RbHvsuizsgY8HQ2lkqz7; MY_SERVER=DofIOnyOzRedor4mycVFpAH1rQi_0bCga4ZUtsxxlutkFlm-lUyHTh8UgWUYiYMt; sessionId=',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    'accept-encoding': 'gzip, deflate, br',
+    referer: 'http://localhost:8000/login',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    origin: 'http://localhost:8000',
+    'content-type': 'application/json;charset=UTF-8',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+    accept: 'application/json',
+    'content-length': '56',
+    connection: 'close',
+    host: 'localhost:9987'
+  },
+  router: {},
+  query: {},
+  body: { userName: '123123', password: '111', autoLogin: false }
+} SysError: 该号码未注册
+    at User.login (/Users/chengqihan/workspace/my-app/my-server/app/service/account.ts:32:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at UserController.login (/Users/chengqihan/workspace/my-app/my-server/app/controller/account.ts:16:18)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:78:5
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:12:7
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5) {
+  code: 'ERROR_PHONE_NOT_EXISTS'
+}
+2020-11-18 18:29:41,782 INFO 12692 [-/127.0.0.1/-/121ms POST /api/login] 200
+2020-11-18 18:29:55,029 INFO 12692 [-/127.0.0.1/-/128ms POST /api/login] 200
+2020-11-18 19:34:11,250 INFO 12692 [-/127.0.0.1/-/176ms POST /api/login] 200
+2020-11-18 19:35:01,816 INFO 12692 [-/127.0.0.1/-/113ms POST /api/login] 200
+2020-11-18 20:13:10,468 INFO 12692 [-/127.0.0.1/-/142ms POST /api/login] 200
+2020-11-19 14:31:27,172 INFO 22081 [-/127.0.0.1/-/180ms POST /api/login] 200
+2020-11-19 14:49:41,931 INFO 22081 [-/127.0.0.1/-/16ms GET /api/currentUser] 200
+2020-11-19 14:49:50,859 INFO 22081 [-/127.0.0.1/-/245ms POST /api/login] 200
+2020-11-19 14:49:51,047 INFO 22081 [-/127.0.0.1/-/10ms GET /api/currentUser] 200
+2020-11-19 19:07:12,273 INFO 41195 [-/127.0.0.1/-/247ms POST /api/login] 200
+2020-11-20 10:21:53,088 INFO 41195 [-/127.0.0.1/-/165ms POST /api/login] 200
+2020-11-20 10:24:50,766 INFO 41195 [-/127.0.0.1/-/103ms POST /api/login] 200
+2020-11-20 10:27:32,654 INFO 41195 [-/127.0.0.1/-/122ms POST /api/login] 200
+2020-11-20 10:28:08,945 INFO 41195 [-/127.0.0.1/-/85ms POST /api/login] 200
+2020-11-20 10:29:57,931 INFO 41195 [-/127.0.0.1/-/154ms POST /api/login] 200
+2020-11-20 10:32:49,764 INFO 41195 [-/127.0.0.1/-/83ms POST /api/login] 200
+2020-11-20 10:33:14,669 INFO 41195 [-/127.0.0.1/-/180ms POST /api/login] 200
+2020-11-23 15:07:39,488 INFO 11549 [-/127.0.0.1/-/205ms POST /api/login] 200
+2020-11-24 10:42:27,942 INFO 17489 [-/127.0.0.1/-/384ms POST /api/login] 200
+2020-11-24 10:42:40,466 INFO 17489 [-/127.0.0.1/-/129ms POST /api/login] 200
+2020-11-24 10:48:31,547 INFO 17489 [-/127.0.0.1/-/199ms POST /api/login] 200
+2020-11-24 14:25:55,499 INFO 25369 [-/127.0.0.1/-/215ms POST /api/login] 200
+2020-11-24 14:30:48,631 WARN 25550 [-/127.0.0.1/-/230ms POST /api/register] [param error]:  "userName" with value "student" fails to match the required pattern: /^1([3578][0-9]|4[579]|66|7[0135678]|9[89])[0-9]{8}$/
+2020-11-24 14:30:48,655 ERROR 25550 [-/127.0.0.1/-/232ms POST /api/register] [server error]:  404 {} InternalServerError: "userName" with value "student" fails to match the required pattern: /^1([3578][0-9]|4[579]|66|7[0135678]|9[89])[0-9]{8}$/
+    at Object.throw (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa/lib/context.js:97:11)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:71:20
+    at Array.forEach (<anonymous>)
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/param_valid.ts:67:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chengqihan/workspace/my-app/my-server/node_modules/@eggjs/router/lib/router.js:195:33)
+2020-11-24 14:30:48,656 INFO 25550 [-/127.0.0.1/-/255ms POST /api/register] 200
+2020-11-24 14:31:34,678 INFO 25598 [-/127.0.0.1/-/216ms POST /api/register] 200
+2020-11-24 14:32:05,579 INFO 25598 [-/127.0.0.1/-/49ms POST /api/login] 200
+2020-11-24 14:32:32,935 INFO 25598 [-/127.0.0.1/-/46ms POST /api/login] 200
+2020-11-24 15:16:22,351 INFO 25598 [-/127.0.0.1/-/73ms POST /api/login] 200
+2020-11-24 15:17:51,664 INFO 25598 [-/127.0.0.1/-/54ms POST /api/login] 200
+2020-11-24 15:41:19,533 INFO 25598 [-/127.0.0.1/-/77ms POST /api/login] 200
+2020-11-24 15:55:09,136 INFO 25598 [-/127.0.0.1/-/63ms POST /api/login] 200
+2020-11-24 15:59:50,017 INFO 25598 [-/127.0.0.1/-/48ms POST /api/login] 200
+2020-11-24 16:01:31,741 INFO 25598 [-/127.0.0.1/-/50ms POST /api/login] 200
+2020-11-24 16:03:10,804 INFO 25598 [-/127.0.0.1/-/47ms POST /api/login] 200
+2020-11-24 17:16:07,169 INFO 29176 [-/127.0.0.1/-/147ms POST /api/login] 200
+2020-11-25 14:34:24,107 ERROR 47119 [-/127.0.0.1/-/293ms POST /api/upload] [server error]:  404 {} Error: Invalid filename: �D<�8-2020-10-20.xlsx
+    at checkFile (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/chengqihan/workspace/my-app/my-server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:315:20)
+    at Busboy.emit (/Users/chengqihan/workspace/my-app/my-server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:315:20)
+    at HeaderParser.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:315:20)
+    at HeaderParser._finish (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/HeaderParser.js:40:12) {
+  status: 400
+}
+2020-11-25 14:34:24,108 INFO 47119 [-/127.0.0.1/-/311ms POST /api/upload] 200
+2020-11-25 14:35:07,777 INFO 47119 [-/127.0.0.1/-/7ms POST /api/upload] 200
+2020-11-25 14:41:09,656 ERROR 47345 [-/127.0.0.1/-/46ms POST /api/upload] [server error]:  404 {} Error: Invalid filename: 181f	���h20180605.xls
+    at checkFile (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/chengqihan/workspace/my-app/my-server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:315:20)
+    at Busboy.emit (/Users/chengqihan/workspace/my-app/my-server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:315:20)
+    at HeaderParser.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:315:20)
+    at HeaderParser._finish (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/HeaderParser.js:40:12) {
+  status: 400
+}
+2020-11-25 14:41:09,657 INFO 47345 [-/127.0.0.1/-/61ms POST /api/upload] 200
+2020-11-25 15:52:07,670 ERROR 49509 [-/127.0.0.1/-/125ms POST /api/upload] [server error]:  404 {} Error: Invalid filename: 181f	���h20180605.xls
+    at checkFile (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/chengqihan/workspace/my-app/my-server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:315:20)
+    at Busboy.emit (/Users/chengqihan/workspace/my-app/my-server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:315:20)
+    at HeaderParser.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:315:20)
+    at HeaderParser._finish (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/HeaderParser.js:40:12) {
+  status: 400
+}
+2020-11-25 15:52:07,671 INFO 49509 [-/127.0.0.1/-/131ms POST /api/upload] 200
+2020-11-25 15:52:10,327 ERROR 49509 [-/127.0.0.1/-/21ms POST /api/upload] [server error]:  404 {} Error: Invalid filename: 181f	���h20180605.xls
+    at checkFile (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/chengqihan/workspace/my-app/my-server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:315:20)
+    at Busboy.emit (/Users/chengqihan/workspace/my-app/my-server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:315:20)
+    at HeaderParser.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:315:20)
+    at HeaderParser._finish (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/HeaderParser.js:40:12) {
+  status: 400
+}
+2020-11-25 15:52:10,327 INFO 49509 [-/127.0.0.1/-/24ms POST /api/upload] 200
+2020-11-25 15:52:58,745 INFO 49533 [-/127.0.0.1/-/19ms POST /api/upload] 200
+2020-11-25 15:52:58,773 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:52:58,776 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:52:58,783 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:52:58,784 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:52:58,785 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:52:58,785 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:52:58,786 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:52:58,795 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:52:58,795 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:52:58,800 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:52:58,801 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:52:58,802 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:52:58,856 WARN 49533 A client (127.0.0.1:57714) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,086 INFO 49612 [-/127.0.0.1/-/31ms POST /api/upload] 200
+2020-11-25 15:53:48,114 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,120 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,120 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,121 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,121 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,122 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,122 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,122 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,122 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,125 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,128 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,128 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:53:48,320 WARN 49612 A client (127.0.0.1:58045) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,880 INFO 49638 [-/127.0.0.1/-/24ms POST /api/upload] 200
+2020-11-25 15:54:46,910 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,911 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,912 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,913 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,917 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,923 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,924 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,924 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,924 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,926 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,928 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,929 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,934 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:54:46,935 WARN 49638 A client (127.0.0.1:58440) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:11,995 INFO 49663 [-/127.0.0.1/-/69ms POST /api/upload] 200
+2020-11-25 15:56:12,027 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:12,028 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:12,030 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:12,031 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:12,079 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:12,080 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:12,082 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:12,082 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:12,083 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:12,083 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:12,084 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:12,084 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:12,214 WARN 49663 A client (127.0.0.1:59005) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:44,244 INFO 49802 [-/127.0.0.1/-/28ms POST /api/upload] 200
+2020-11-25 15:56:44,279 WARN 49802 A client (127.0.0.1:59219) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:44,283 WARN 49802 A client (127.0.0.1:59219) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:44,284 WARN 49802 A client (127.0.0.1:59219) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:44,285 WARN 49802 A client (127.0.0.1:59219) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:44,287 WARN 49802 A client (127.0.0.1:59219) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:44,288 WARN 49802 A client (127.0.0.1:59219) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:44,289 WARN 49802 A client (127.0.0.1:59219) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:44,289 WARN 49802 A client (127.0.0.1:59219) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:44,322 WARN 49802 A client (127.0.0.1:59219) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 15:56:44,328 WARN 49802 A client (127.0.0.1:59219) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,656 INFO 49905 [-/127.0.0.1/-/21ms POST /api/upload] 200
+2020-11-25 16:00:25,676 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,677 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,678 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,679 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,679 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,679 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,680 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,680 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,680 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,681 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,683 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,684 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:00:25,684 WARN 49905 A client (127.0.0.1:60701) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,035 INFO 50225 [-/127.0.0.1/-/35ms POST /api/upload] 200
+2020-11-25 16:17:51,093 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,114 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,151 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,189 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,189 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,190 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,191 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,191 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,191 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,192 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,193 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,193 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:17:51,330 WARN 50225 A client (127.0.0.1:51006) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:20:50,625 ERROR 50373 [-/127.0.0.1/-/22ms POST /api/upload] [server error]:  404 {} Error: Invalid filename: 4d9c81e5546644f2ac164be3e9e3c627.png
+    at checkFile (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/chengqihan/workspace/my-app/my-server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:315:20)
+    at Busboy.emit (/Users/chengqihan/workspace/my-app/my-server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:315:20)
+    at HeaderParser.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:315:20)
+    at HeaderParser._finish (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/HeaderParser.js:40:12) {
+  status: 400
+}
+2020-11-25 16:20:50,632 INFO 50373 [-/127.0.0.1/-/38ms POST /api/upload] 200
+2020-11-25 16:21:08,802 ERROR 50373 [-/127.0.0.1/-/5ms POST /api/upload] [server error]:  404 {} Error: Invalid filename: 4d9c81e5546644f2ac164be3e9e3c627.png
+    at checkFile (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/chengqihan/workspace/my-app/my-server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:315:20)
+    at Busboy.emit (/Users/chengqihan/workspace/my-app/my-server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:315:20)
+    at HeaderParser.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:315:20)
+    at HeaderParser._finish (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/chengqihan/workspace/my-app/my-server/node_modules/dicer/lib/HeaderParser.js:40:12) {
+  status: 400
+}
+2020-11-25 16:21:08,802 INFO 50373 [-/127.0.0.1/-/9ms POST /api/upload] 200
+2020-11-25 16:21:12,650 INFO 50402 [-/127.0.0.1/-/60ms POST /api/upload] 200
+2020-11-25 16:23:00,956 INFO 50447 [-/127.0.0.1/-/24ms POST /api/upload] 200
+2020-11-25 16:26:06,406 INFO 50447 [-/127.0.0.1/-/5ms POST /api/upload] 200
+2020-11-25 16:26:06,460 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:26:06,462 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:26:06,462 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:26:06,463 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:26:06,464 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:26:06,466 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:26:06,466 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:26:06,467 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:26:06,467 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:26:06,469 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:26:06,471 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:26:06,472 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:26:06,613 WARN 50447 A client (127.0.0.1:54287) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,103 INFO 50840 [-/127.0.0.1/-/21ms POST /api/upload] 200
+2020-11-25 16:36:42,124 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,125 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,125 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,126 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,128 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,129 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,129 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,130 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,131 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,132 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,133 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,133 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:36:42,295 WARN 50840 A client (127.0.0.1:58585) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,382 INFO 51117 [-/127.0.0.1/-/22ms POST /api/upload] 200
+2020-11-25 16:43:28,441 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,442 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,443 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,443 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,444 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,444 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,445 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,445 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,445 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,448 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,449 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,449 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:43:28,512 WARN 51117 A client (127.0.0.1:61432) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:39,925 INFO 51174 [-/127.0.0.1/-/30ms POST /api/upload] 200
+2020-11-25 16:45:40,052 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:40,057 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:40,059 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:40,062 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:40,075 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:40,076 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:40,077 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:40,077 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:40,078 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:40,086 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:40,087 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:40,088 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:45:40,147 WARN 51174 A client (127.0.0.1:62363) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,258 INFO 51290 [-/127.0.0.1/-/27ms POST /api/upload] 200
+2020-11-25 16:46:11,380 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,431 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,445 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,446 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,447 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,447 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,448 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,453 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,453 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,454 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,455 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,455 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:46:11,554 WARN 51290 A client (127.0.0.1:62573) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-25 16:47:43,652 INFO 51426 [-/127.0.0.1/-/20ms POST /api/upload] 200
+2020-11-25 16:52:51,825 INFO 51655 [-/127.0.0.1/-/19ms POST /api/upload] 200
+2020-11-26 10:20:53,717 INFO 55325 [-/127.0.0.1/-/23ms POST /api/upload] 200
+2020-11-26 10:20:53,831 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:20:53,835 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:20:53,839 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:20:53,852 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:20:53,854 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:20:53,854 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:20:53,855 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:20:53,855 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:20:53,856 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:20:53,881 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:20:53,882 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:20:53,883 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:20:53,965 WARN 55325 A client (127.0.0.1:62400) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:27,995 INFO 55373 [-/127.0.0.1/-/19ms POST /api/upload] 200
+2020-11-26 10:22:28,019 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:28,020 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:28,022 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:28,022 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:28,023 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:28,023 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:28,023 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:28,024 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:28,024 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:28,026 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:28,030 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:28,031 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:22:28,145 WARN 55373 A client (127.0.0.1:63015) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,166 INFO 55442 [-/127.0.0.1/-/30ms POST /api/upload] 200
+2020-11-26 10:23:03,195 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,197 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,197 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,198 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,200 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,201 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,201 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,208 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,208 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,209 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,210 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,210 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-26 10:23:03,210 WARN 55442 A client (127.0.0.1:63257) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,358 INFO 84518 [-/127.0.0.1/-/108ms POST /api/upload] 200
+2020-11-27 15:24:23,446 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,447 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,447 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,448 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,452 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,452 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,453 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,466 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,466 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,511 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,512 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,512 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:24:23,570 WARN 84518 A client (127.0.0.1:65496) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:38,973 INFO 85337 [-/127.0.0.1/-/38ms POST /api/upload] 200
+2020-11-27 15:34:39,054 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:39,068 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:39,069 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:39,069 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:39,070 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:39,070 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:39,096 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:39,099 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:39,104 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:39,112 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:39,113 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:39,114 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:34:39,149 WARN 85337 A client (127.0.0.1:50881) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,478 INFO 85522 [-/127.0.0.1/-/21ms POST /api/upload] 200
+2020-11-27 15:42:04,509 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,510 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,512 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,512 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,513 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,513 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,514 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,514 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,519 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,527 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,527 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,528 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:42:04,528 WARN 85522 A client (127.0.0.1:52211) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 15:43:55,521 INFO 85615 [-/127.0.0.1/-/17ms POST /api/upload] 200
+2020-11-27 16:40:10,568 INFO 87185 [-/127.0.0.1/-/20ms POST /api/upload] 200
+2020-11-27 16:57:49,356 INFO 87307 [-/127.0.0.1/-/46ms POST /api/upload] 200
+2020-11-27 17:53:42,710 INFO 88678 [-/127.0.0.1/-/41ms POST /api/upload] 200
+2020-11-27 17:53:42,756 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 17:53:42,757 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 17:53:42,758 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 17:53:42,758 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 17:53:42,759 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 17:53:42,760 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 17:53:42,760 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 17:53:42,769 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 17:53:42,770 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 17:53:42,803 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 17:53:42,804 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 17:53:42,805 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-11-27 17:53:42,809 WARN 88678 A client (127.0.0.1:56348) error [HPE_JS_EXCEPTION] occurred: Parse Error: JS Exception
+2020-12-09 15:19:46,904 ERROR 20855 [-/127.0.0.1/-/9ms GET /] [server error]:  404 {} SysError: path / Not Found
+    at /Users/chengqihan/workspace/my-app/my-server/app/middleware/response_format.ts:14:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at xframe (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/chengqihan/workspace/my-app/my-server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-session/index.js:41:7)
+    at bodyParser (/Users/chengqihan/workspace/my-app/my-server/node_modules/koa-bodyparser/index.js:95:5)
+    at /Users/chengqihan/workspace/my-app/my-server/node_modules/koa-static-cache/index.js:41:56 {
+  code: 404
+}
+2020-12-09 15:19:46,909 INFO 20855 [-/127.0.0.1/-/51ms GET /] 200

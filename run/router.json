@@ -2,8 +2,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/api/login",
@@ -23,6 +22,44 @@
     "regexp": "/^\\/api\\/register(?:\\/(?=$))?$/",
     "stack": [
       "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/unlock",
+    "regexp": "/^\\/api\\/unlock(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/currentUser",
+    "regexp": "/^\\/api\\/currentUser(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/upload",
+    "regexp": "/^\\/api\\/upload(?:\\/(?=$))?$/",
+    "stack": [
       "wrappedController"
     ]
   }

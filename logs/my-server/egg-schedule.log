@@ -4,3 +4,540 @@
 2020-11-09 14:42:08,026 INFO 78632 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49671977ms at 2020-11-10 04:30:00.003
 2020-11-09 14:42:08,027 INFO 78632 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33471973ms at 2020-11-10 00:00:00.000
 2020-11-09 14:42:08,027 INFO 78632 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33472973ms at 2020-11-10 00:00:01.000
+2020-11-09 16:46:52,053 INFO 83195 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 16:46:52,053 INFO 83195 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 16:46:52,053 INFO 83195 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 16:54:14,180 INFO 83505 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 16:54:14,181 INFO 83505 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 16:54:14,181 INFO 83505 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 16:54:15,594 INFO 83491 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41744412ms at 2020-11-10 04:30:00.006
+2020-11-09 16:54:15,595 INFO 83491 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25544406ms at 2020-11-10 00:00:00.001
+2020-11-09 16:54:15,595 INFO 83491 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25545405ms at 2020-11-10 00:00:01.000
+2020-11-09 17:00:52,135 INFO 83720 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 17:00:52,135 INFO 83720 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 17:00:52,135 INFO 83720 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 17:03:37,595 INFO 83813 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 17:03:37,595 INFO 83813 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 17:03:37,595 INFO 83813 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 17:10:42,230 INFO 83968 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 17:10:42,230 INFO 83968 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 17:10:42,230 INFO 83968 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 17:16:05,951 INFO 84157 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 17:16:05,951 INFO 84157 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 17:16:05,951 INFO 84157 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 17:16:24,441 INFO 84183 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 17:16:24,441 INFO 84183 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 17:16:24,441 INFO 84183 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 17:17:34,312 INFO 84231 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 17:17:34,312 INFO 84231 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 17:17:34,312 INFO 84231 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 17:18:40,776 INFO 84276 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 17:18:40,776 INFO 84276 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 17:18:40,776 INFO 84276 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 17:18:51,081 INFO 84297 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 17:18:51,081 INFO 84297 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 17:18:51,081 INFO 84297 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 17:47:55,146 INFO 85179 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 17:47:55,146 INFO 85179 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 17:47:55,146 INFO 85179 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 17:47:56,111 INFO 85174 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38523892ms at 2020-11-10 04:30:00.003
+2020-11-09 17:47:56,111 INFO 85174 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22323889ms at 2020-11-10 00:00:00.000
+2020-11-09 17:47:56,112 INFO 85174 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22324889ms at 2020-11-10 00:00:01.001
+2020-11-09 17:51:51,117 INFO 85301 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 17:51:51,117 INFO 85301 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 17:51:51,117 INFO 85301 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 17:59:36,592 INFO 85603 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 17:59:36,592 INFO 85603 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 17:59:36,592 INFO 85603 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 17:59:53,946 INFO 85631 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 17:59:53,946 INFO 85631 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 17:59:53,946 INFO 85631 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 18:00:22,715 INFO 85660 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 18:00:22,715 INFO 85660 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 18:00:22,715 INFO 85660 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 19:27:57,042 INFO 86879 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 19:27:57,042 INFO 86879 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 19:27:57,042 INFO 86879 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 19:28:14,804 INFO 86903 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 19:28:14,805 INFO 86903 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 19:28:14,805 INFO 86903 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 19:32:56,126 INFO 87004 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 19:32:56,126 INFO 87004 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 19:32:56,126 INFO 87004 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 19:34:23,435 INFO 87067 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 19:34:23,435 INFO 87067 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 19:34:23,435 INFO 87067 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 19:35:13,575 INFO 87102 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 19:35:13,575 INFO 87102 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 19:35:13,575 INFO 87102 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 19:36:05,064 INFO 87137 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 19:36:05,064 INFO 87137 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 19:36:05,065 INFO 87137 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 20:11:50,047 INFO 88729 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-09 20:11:50,047 INFO 88729 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-09 20:11:50,047 INFO 88729 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-09 20:11:50,946 INFO 88728 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 29889058ms at 2020-11-10 04:30:00.004
+2020-11-09 20:11:50,946 INFO 88728 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 13689054ms at 2020-11-10 00:00:00.000
+2020-11-09 20:11:50,947 INFO 88728 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 13690054ms at 2020-11-10 00:00:01.001
+2020-11-10 09:48:49,621 INFO 90317 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 09:48:49,621 INFO 90317 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 09:48:49,621 INFO 90317 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 09:48:50,577 INFO 90309 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 67269427ms at 2020-11-11 04:30:00.004
+2020-11-10 09:48:50,577 INFO 90309 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 51069423ms at 2020-11-11 00:00:00.000
+2020-11-10 09:48:50,578 INFO 90309 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51070423ms at 2020-11-11 00:00:01.001
+2020-11-10 09:54:24,007 INFO 90455 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 09:54:24,007 INFO 90455 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 09:54:24,007 INFO 90455 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 09:56:45,802 INFO 90515 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 09:56:45,802 INFO 90515 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 09:56:45,802 INFO 90515 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 09:57:38,547 INFO 90556 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 09:57:38,547 INFO 90556 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 09:57:38,547 INFO 90556 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 09:57:45,119 INFO 90568 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 09:57:45,119 INFO 90568 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 09:57:45,119 INFO 90568 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 09:58:04,942 INFO 90583 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 09:58:04,942 INFO 90583 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 09:58:04,942 INFO 90583 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 10:32:45,326 INFO 91251 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 10:32:45,326 INFO 91251 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 10:32:45,326 INFO 91251 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 10:32:53,278 INFO 91273 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 10:32:53,278 INFO 91273 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 10:32:53,278 INFO 91273 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 10:33:47,700 INFO 91304 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 10:33:47,700 INFO 91304 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 10:33:47,700 INFO 91304 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 10:38:15,258 INFO 91477 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 10:38:15,258 INFO 91477 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 10:38:15,258 INFO 91477 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 10:40:31,927 INFO 91548 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 10:40:31,927 INFO 91548 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 10:40:31,927 INFO 91548 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 10:49:37,145 INFO 91747 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 10:49:37,145 INFO 91747 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 10:49:37,145 INFO 91747 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 10:51:40,441 INFO 91825 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 10:51:40,441 INFO 91825 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 10:51:40,441 INFO 91825 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 10:51:49,617 INFO 91837 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 10:51:49,617 INFO 91837 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 10:51:49,617 INFO 91837 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 10:52:34,350 INFO 91875 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 10:52:34,350 INFO 91875 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 10:52:34,350 INFO 91875 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 10:52:45,665 INFO 91900 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 10:52:45,665 INFO 91900 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 10:52:45,665 INFO 91900 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 11:00:12,986 INFO 92042 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 11:00:12,986 INFO 92042 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 11:00:12,986 INFO 92042 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 11:00:21,355 INFO 92053 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 11:00:21,355 INFO 92053 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 11:00:21,355 INFO 92053 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 11:03:47,584 INFO 92148 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 11:03:47,584 INFO 92148 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 11:03:47,584 INFO 92148 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 11:05:00,129 INFO 92193 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 11:05:00,129 INFO 92193 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 11:05:00,129 INFO 92193 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 11:05:07,864 INFO 92216 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 11:05:07,864 INFO 92216 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 11:05:07,864 INFO 92216 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 11:07:12,713 INFO 92291 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 11:07:12,713 INFO 92291 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 11:07:12,713 INFO 92291 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 11:07:44,721 INFO 92323 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 11:07:44,721 INFO 92323 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 11:07:44,721 INFO 92323 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 11:09:11,056 INFO 92373 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 11:09:11,056 INFO 92373 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 11:09:11,056 INFO 92373 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 11:11:06,663 INFO 92435 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 11:11:06,663 INFO 92435 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 11:11:06,663 INFO 92435 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 11:14:32,580 INFO 92506 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 11:14:32,580 INFO 92506 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 11:14:32,580 INFO 92506 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 11:17:07,227 INFO 92574 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 11:17:07,227 INFO 92574 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 11:17:07,227 INFO 92574 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 11:24:58,011 INFO 92739 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 11:24:58,011 INFO 92739 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 11:24:58,011 INFO 92739 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 14:33:19,743 INFO 95644 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 14:33:19,743 INFO 95644 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 14:33:19,743 INFO 95644 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 14:59:54,577 INFO 96593 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 14:59:54,578 INFO 96593 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 14:59:54,578 INFO 96593 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 15:07:08,783 INFO 96829 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 15:07:08,783 INFO 96829 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 15:07:08,783 INFO 96829 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 16:02:36,653 INFO 98113 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 16:02:36,653 INFO 98113 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 16:02:36,653 INFO 98113 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 16:05:47,061 INFO 98196 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 16:05:47,061 INFO 98196 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 16:05:47,061 INFO 98196 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-10 16:06:51,505 INFO 98234 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-10 16:06:51,505 INFO 98234 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-10 16:06:51,505 INFO 98234 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 14:21:18,765 INFO 2967 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 14:21:18,765 INFO 2967 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 14:21:18,765 INFO 2967 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 14:21:21,786 INFO 2796 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50918217ms at 2020-11-13 04:30:00.003
+2020-11-12 14:21:21,787 INFO 2796 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34718214ms at 2020-11-13 00:00:00.001
+2020-11-12 14:21:21,787 INFO 2796 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34719213ms at 2020-11-13 00:00:01.000
+2020-11-12 14:54:12,328 INFO 4268 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 14:54:12,329 INFO 4268 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 14:54:12,329 INFO 4268 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 14:54:25,477 INFO 4283 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 14:54:25,477 INFO 4283 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 14:54:25,477 INFO 4283 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 14:54:45,442 INFO 4301 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 14:54:45,442 INFO 4301 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 14:54:45,442 INFO 4301 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:16:22,011 INFO 6346 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:16:22,011 INFO 6346 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:16:22,011 INFO 6346 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:22:16,808 INFO 6645 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:22:16,808 INFO 6645 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:22:16,808 INFO 6645 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:23:07,949 INFO 6688 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:23:07,949 INFO 6688 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:23:07,949 INFO 6688 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:23:08,541 INFO 6698 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:23:08,541 INFO 6698 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:23:08,541 INFO 6698 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:27:06,883 INFO 6880 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:27:06,884 INFO 6880 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:27:06,884 INFO 6880 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:28:13,650 INFO 6946 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:28:13,650 INFO 6946 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:28:13,650 INFO 6946 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:29:47,849 INFO 6991 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:29:47,849 INFO 6991 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:29:47,849 INFO 6991 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:30:48,476 INFO 7031 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:30:48,476 INFO 7031 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:30:48,476 INFO 7031 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:30:59,680 INFO 7045 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:30:59,680 INFO 7045 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:30:59,680 INFO 7045 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:31:08,902 INFO 7065 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:31:08,902 INFO 7065 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:31:08,902 INFO 7065 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:31:48,181 INFO 7103 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:31:48,181 INFO 7103 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:31:48,181 INFO 7103 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:31:55,782 INFO 7119 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:31:55,782 INFO 7119 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:31:55,782 INFO 7119 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 15:33:35,051 INFO 7168 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 15:33:35,051 INFO 7168 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 15:33:35,051 INFO 7168 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 16:08:58,328 INFO 8027 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 16:08:58,328 INFO 8027 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 16:08:58,328 INFO 8027 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 17:33:30,830 INFO 9937 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 17:33:30,830 INFO 9937 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 17:33:30,830 INFO 9937 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 17:51:32,362 INFO 10423 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-12 17:51:32,362 INFO 10423 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-12 17:51:32,362 INFO 10423 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-12 17:51:33,324 INFO 10418 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38306680ms at 2020-11-13 04:30:00.004
+2020-11-12 17:51:33,325 INFO 10418 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22106675ms at 2020-11-13 00:00:00.000
+2020-11-12 17:51:33,325 INFO 10418 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22107675ms at 2020-11-13 00:00:01.000
+2020-11-13 10:15:40,091 INFO 70494 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-13 10:15:40,091 INFO 70494 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-13 10:15:40,091 INFO 70494 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-13 10:15:41,324 INFO 70489 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65658681ms at 2020-11-14 04:30:00.005
+2020-11-13 10:15:41,326 INFO 70489 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49458676ms at 2020-11-14 00:00:00.002
+2020-11-13 10:15:41,327 INFO 70489 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49459674ms at 2020-11-14 00:00:01.001
+2020-11-16 11:56:06,580 INFO 3225 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-16 11:56:06,580 INFO 3225 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-16 11:56:06,580 INFO 3225 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-16 11:56:08,250 INFO 3208 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59631753ms at 2020-11-17 04:30:00.003
+2020-11-16 11:56:08,250 INFO 3208 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43431750ms at 2020-11-17 00:00:00.000
+2020-11-16 11:56:08,251 INFO 3208 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43432749ms at 2020-11-17 00:00:01.000
+2020-11-16 14:33:49,580 INFO 5807 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-16 14:33:49,580 INFO 5807 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-16 14:33:49,580 INFO 5807 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-16 14:33:51,009 INFO 5794 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50168998ms at 2020-11-17 04:30:00.007
+2020-11-16 14:33:51,009 INFO 5794 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33968991ms at 2020-11-17 00:00:00.000
+2020-11-16 14:33:51,010 INFO 5794 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33969991ms at 2020-11-17 00:00:01.001
+2020-11-18 17:46:24,959 INFO 11870 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-18 17:46:24,959 INFO 11870 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-18 17:46:24,959 INFO 11870 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-18 17:46:27,605 INFO 11853 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38612402ms at 2020-11-19 04:30:00.007
+2020-11-18 17:46:27,605 INFO 11853 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22412395ms at 2020-11-19 00:00:00.000
+2020-11-18 17:46:27,605 INFO 11853 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22413395ms at 2020-11-19 00:00:01.000
+2020-11-18 18:29:36,083 INFO 12692 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-18 18:29:36,083 INFO 12692 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-18 18:29:36,083 INFO 12692 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-19 14:30:34,140 INFO 22081 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-19 14:30:34,141 INFO 22081 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-19 14:30:34,141 INFO 22081 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-19 14:30:35,910 INFO 22077 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50364099ms at 2020-11-20 04:30:00.009
+2020-11-19 14:30:35,911 INFO 22077 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34164090ms at 2020-11-20 00:00:00.001
+2020-11-19 14:30:35,911 INFO 22077 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34165089ms at 2020-11-20 00:00:01.000
+2020-11-19 19:06:47,238 INFO 41195 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-19 19:06:47,238 INFO 41195 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-19 19:06:47,238 INFO 41195 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-19 19:06:49,512 INFO 41193 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 33790491ms at 2020-11-20 04:30:00.003
+2020-11-19 19:06:49,513 INFO 41193 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 17590487ms at 2020-11-20 00:00:00.000
+2020-11-19 19:06:49,513 INFO 41193 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 17591487ms at 2020-11-20 00:00:01.000
+2020-11-23 15:02:43,423 INFO 11549 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-23 15:02:43,423 INFO 11549 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-23 15:02:43,423 INFO 11549 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-23 15:02:48,147 INFO 11543 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48431858ms at 2020-11-24 04:30:00.005
+2020-11-23 15:02:48,147 INFO 11543 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32231853ms at 2020-11-24 00:00:00.000
+2020-11-23 15:02:48,148 INFO 11543 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32232853ms at 2020-11-24 00:00:01.001
+2020-11-23 17:56:35,911 INFO 17314 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-23 17:56:35,911 INFO 17314 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-23 17:56:35,911 INFO 17314 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-23 17:56:49,825 INFO 17350 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-23 17:56:49,825 INFO 17350 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-23 17:56:49,825 INFO 17350 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-23 18:04:09,886 INFO 17489 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-23 18:04:09,886 INFO 17489 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-23 18:04:09,886 INFO 17489 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-24 14:23:46,546 INFO 25369 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-24 14:23:46,546 INFO 25369 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-24 14:23:46,546 INFO 25369 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-24 14:23:47,483 INFO 25348 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50772520ms at 2020-11-25 04:30:00.003
+2020-11-24 14:23:47,484 INFO 25348 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34572517ms at 2020-11-25 00:00:00.001
+2020-11-24 14:23:47,484 INFO 25348 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34573516ms at 2020-11-25 00:00:01.000
+2020-11-24 14:30:25,889 INFO 25550 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-24 14:30:25,889 INFO 25550 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-24 14:30:25,889 INFO 25550 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-24 14:31:10,618 INFO 25598 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-24 14:31:10,618 INFO 25598 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-24 14:31:10,618 INFO 25598 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-24 17:13:10,513 INFO 29176 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-24 17:13:10,513 INFO 29176 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-24 17:13:10,513 INFO 29176 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 11:48:41,325 INFO 41102 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 11:48:41,325 INFO 41102 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 11:48:41,325 INFO 41102 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 11:48:42,868 INFO 41100 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60077135ms at 2020-11-26 04:30:00.003
+2020-11-25 11:48:42,868 INFO 41100 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43877132ms at 2020-11-26 00:00:00.000
+2020-11-25 11:48:42,869 INFO 41100 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43878131ms at 2020-11-26 00:00:01.000
+2020-11-25 11:50:30,825 INFO 41151 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 11:50:30,825 INFO 41151 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 11:50:30,825 INFO 41151 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 11:51:02,335 INFO 41233 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 11:51:02,335 INFO 41233 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 11:51:02,335 INFO 41233 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 11:51:03,296 INFO 41231 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59936707ms at 2020-11-26 04:30:00.003
+2020-11-25 11:51:03,297 INFO 41231 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43736704ms at 2020-11-26 00:00:00.001
+2020-11-25 11:51:03,297 INFO 41231 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43737703ms at 2020-11-26 00:00:01.000
+2020-11-25 11:52:12,629 INFO 41268 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 11:52:12,629 INFO 41268 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 11:52:12,629 INFO 41268 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 14:29:50,851 INFO 46971 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 14:29:50,851 INFO 46971 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 14:29:50,851 INFO 46971 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 14:29:53,900 INFO 46970 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50406102ms at 2020-11-26 04:30:00.002
+2020-11-25 14:29:53,901 INFO 46970 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34206099ms at 2020-11-26 00:00:00.000
+2020-11-25 14:29:53,901 INFO 46970 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34207099ms at 2020-11-26 00:00:01.000
+2020-11-25 14:33:19,340 INFO 47108 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 14:33:19,340 INFO 47108 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 14:33:19,340 INFO 47108 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 14:33:39,333 INFO 47119 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 14:33:39,333 INFO 47119 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 14:33:39,333 INFO 47119 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 14:39:42,641 INFO 47295 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 14:39:42,641 INFO 47295 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 14:39:42,641 INFO 47295 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 14:40:31,582 INFO 47317 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 14:40:31,582 INFO 47317 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 14:40:31,582 INFO 47317 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 14:40:46,890 INFO 47345 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 14:40:46,890 INFO 47345 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 14:40:46,890 INFO 47345 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 15:51:56,693 INFO 49494 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 15:51:56,693 INFO 49494 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 15:51:56,693 INFO 49494 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 15:52:00,635 INFO 49509 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 15:52:00,636 INFO 49509 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 15:52:00,636 INFO 49509 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 15:52:24,302 INFO 49533 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 15:52:24,302 INFO 49533 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 15:52:24,302 INFO 49533 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 15:53:44,562 INFO 49612 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 15:53:44,562 INFO 49612 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 15:53:44,562 INFO 49612 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 15:53:45,777 INFO 49607 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45374226ms at 2020-11-26 04:30:00.003
+2020-11-25 15:53:45,777 INFO 49607 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29174223ms at 2020-11-26 00:00:00.000
+2020-11-25 15:53:45,778 INFO 49607 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29175223ms at 2020-11-26 00:00:01.001
+2020-11-25 15:54:35,525 INFO 49638 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 15:54:35,525 INFO 49638 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 15:54:35,525 INFO 49638 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 15:55:28,325 INFO 49663 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 15:55:28,325 INFO 49663 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 15:55:28,325 INFO 49663 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 15:56:41,554 INFO 49802 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 15:56:41,554 INFO 49802 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 15:56:41,554 INFO 49802 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 15:56:42,765 INFO 49797 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45197238ms at 2020-11-26 04:30:00.003
+2020-11-25 15:56:42,765 INFO 49797 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28997235ms at 2020-11-26 00:00:00.000
+2020-11-25 15:56:42,765 INFO 49797 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28998235ms at 2020-11-26 00:00:01.000
+2020-11-25 15:57:28,167 INFO 49827 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 15:57:28,167 INFO 49827 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 15:57:28,167 INFO 49827 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:00:21,664 INFO 49905 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:00:21,664 INFO 49905 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:00:21,664 INFO 49905 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:17:28,722 INFO 50225 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:17:28,722 INFO 50225 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:17:28,722 INFO 50225 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:20:45,174 INFO 50373 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:20:45,174 INFO 50373 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:20:45,174 INFO 50373 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:20:46,288 INFO 50370 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43753715ms at 2020-11-26 04:30:00.003
+2020-11-25 16:20:46,289 INFO 50370 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 27553712ms at 2020-11-26 00:00:00.001
+2020-11-25 16:20:46,289 INFO 50370 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27554711ms at 2020-11-26 00:00:01.000
+2020-11-25 16:21:09,137 INFO 50402 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:21:09,137 INFO 50402 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:21:09,137 INFO 50402 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:22:52,793 INFO 50447 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:22:52,793 INFO 50447 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:22:52,793 INFO 50447 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:36:37,090 INFO 50840 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:36:37,090 INFO 50840 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:36:37,090 INFO 50840 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:36:38,272 INFO 50839 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42801731ms at 2020-11-26 04:30:00.003
+2020-11-25 16:36:38,273 INFO 50839 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26601727ms at 2020-11-26 00:00:00.000
+2020-11-25 16:36:38,273 INFO 50839 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26602727ms at 2020-11-26 00:00:01.000
+2020-11-25 16:43:24,882 INFO 51117 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:43:24,883 INFO 51117 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:43:24,883 INFO 51117 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:43:26,152 INFO 51110 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42393852ms at 2020-11-26 04:30:00.004
+2020-11-25 16:43:26,152 INFO 51110 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26193848ms at 2020-11-26 00:00:00.000
+2020-11-25 16:43:26,153 INFO 51110 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26194848ms at 2020-11-26 00:00:01.001
+2020-11-25 16:45:23,604 INFO 51174 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:45:23,604 INFO 51174 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:45:23,604 INFO 51174 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:46:07,181 INFO 51290 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:46:07,181 INFO 51290 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:46:07,181 INFO 51290 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:46:08,624 INFO 51288 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42231379ms at 2020-11-26 04:30:00.003
+2020-11-25 16:46:08,625 INFO 51288 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26031376ms at 2020-11-26 00:00:00.001
+2020-11-25 16:46:08,626 INFO 51288 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26032375ms at 2020-11-26 00:00:01.001
+2020-11-25 16:47:32,700 INFO 51426 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:47:32,700 INFO 51426 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:47:32,700 INFO 51426 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:47:37,978 INFO 51425 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42142026ms at 2020-11-26 04:30:00.004
+2020-11-25 16:47:37,978 INFO 51425 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25942022ms at 2020-11-26 00:00:00.000
+2020-11-25 16:47:37,979 INFO 51425 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25943022ms at 2020-11-26 00:00:01.001
+2020-11-25 16:52:21,014 INFO 51621 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:52:21,014 INFO 51621 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:52:21,014 INFO 51621 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:52:32,822 INFO 51632 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:52:32,822 INFO 51632 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:52:32,822 INFO 51632 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-25 16:52:41,896 INFO 51655 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-25 16:52:41,896 INFO 51655 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-25 16:52:41,896 INFO 51655 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-26 10:14:03,674 INFO 55064 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-26 10:14:03,674 INFO 55064 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-26 10:14:03,674 INFO 55064 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-26 10:14:05,173 INFO 55057 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65754831ms at 2020-11-27 04:30:00.004
+2020-11-26 10:14:05,174 INFO 55057 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49554827ms at 2020-11-27 00:00:00.001
+2020-11-26 10:14:05,174 INFO 55057 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49555826ms at 2020-11-27 00:00:01.000
+2020-11-26 10:19:34,252 INFO 55208 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-26 10:19:34,252 INFO 55208 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-26 10:19:34,252 INFO 55208 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-26 10:20:47,690 INFO 55325 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-26 10:20:47,690 INFO 55325 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-26 10:20:47,690 INFO 55325 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-26 10:20:49,141 INFO 55322 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65350863ms at 2020-11-27 04:30:00.004
+2020-11-26 10:20:49,142 INFO 55322 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49150858ms at 2020-11-27 00:00:00.000
+2020-11-26 10:20:49,142 INFO 55322 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49151858ms at 2020-11-27 00:00:01.000
+2020-11-26 10:21:50,709 INFO 55373 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-26 10:21:50,709 INFO 55373 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-26 10:21:50,709 INFO 55373 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-26 10:22:48,510 INFO 55442 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-26 10:22:48,510 INFO 55442 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-26 10:22:48,510 INFO 55442 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-26 10:22:49,877 INFO 55439 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65230126ms at 2020-11-27 04:30:00.003
+2020-11-26 10:22:49,878 INFO 55439 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49030123ms at 2020-11-27 00:00:00.001
+2020-11-26 10:22:49,878 INFO 55439 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49031122ms at 2020-11-27 00:00:01.000
+2020-11-26 17:52:02,124 INFO 73481 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-26 17:52:02,124 INFO 73481 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-26 17:52:02,124 INFO 73481 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-26 17:52:03,302 INFO 73479 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38276703ms at 2020-11-27 04:30:00.005
+2020-11-26 17:52:03,302 INFO 73479 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22076698ms at 2020-11-27 00:00:00.000
+2020-11-26 17:52:03,302 INFO 73479 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22077698ms at 2020-11-27 00:00:01.000
+2020-11-27 11:54:22,234 INFO 80628 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-27 11:54:22,234 INFO 80628 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-27 11:54:22,234 INFO 80628 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-27 11:54:25,405 INFO 80625 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59734600ms at 2020-11-28 04:30:00.005
+2020-11-27 11:54:25,405 INFO 80625 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43534595ms at 2020-11-28 00:00:00.000
+2020-11-27 11:54:25,406 INFO 80625 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43535595ms at 2020-11-28 00:00:01.001
+2020-11-27 14:55:10,420 INFO 84518 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-27 14:55:10,420 INFO 84518 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-27 14:55:10,420 INFO 84518 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-27 14:55:11,602 INFO 84515 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48888403ms at 2020-11-28 04:30:00.005
+2020-11-27 14:55:11,602 INFO 84515 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32688398ms at 2020-11-28 00:00:00.000
+2020-11-27 14:55:11,602 INFO 84515 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32689398ms at 2020-11-28 00:00:01.000
+2020-11-27 15:34:28,834 INFO 85337 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-27 15:34:28,834 INFO 85337 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-27 15:34:28,834 INFO 85337 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-27 15:34:33,468 INFO 85335 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46526537ms at 2020-11-28 04:30:00.005
+2020-11-27 15:34:33,468 INFO 85335 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30326532ms at 2020-11-28 00:00:00.000
+2020-11-27 15:34:33,468 INFO 85335 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30327532ms at 2020-11-28 00:00:01.000
+2020-11-27 15:41:57,753 INFO 85522 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-27 15:41:57,753 INFO 85522 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-27 15:41:57,753 INFO 85522 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-27 15:42:02,888 INFO 85521 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46077115ms at 2020-11-28 04:30:00.003
+2020-11-27 15:42:02,888 INFO 85521 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29877112ms at 2020-11-28 00:00:00.000
+2020-11-27 15:42:02,889 INFO 85521 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29878112ms at 2020-11-28 00:00:01.001
+2020-11-27 15:43:23,806 INFO 85615 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-27 15:43:23,806 INFO 85615 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-27 15:43:23,806 INFO 85615 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-27 15:43:28,410 INFO 85613 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45991593ms at 2020-11-28 04:30:00.003
+2020-11-27 15:43:28,410 INFO 85613 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29791590ms at 2020-11-28 00:00:00.000
+2020-11-27 15:43:28,411 INFO 85613 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29792590ms at 2020-11-28 00:00:01.001
+2020-11-27 16:39:51,075 INFO 87174 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-27 16:39:51,075 INFO 87174 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-27 16:39:51,075 INFO 87174 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-27 16:40:00,466 INFO 87185 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-27 16:40:00,466 INFO 87185 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-27 16:40:00,467 INFO 87185 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-27 16:43:49,000 INFO 87307 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-27 16:43:49,000 INFO 87307 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-27 16:43:49,000 INFO 87307 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-27 17:53:19,688 INFO 88638 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-27 17:53:19,688 INFO 88638 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-27 17:53:19,688 INFO 88638 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-27 17:53:20,896 INFO 88628 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38199107ms at 2020-11-28 04:30:00.003
+2020-11-27 17:53:20,896 INFO 88628 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 21999104ms at 2020-11-28 00:00:00.000
+2020-11-27 17:53:20,897 INFO 88628 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22000104ms at 2020-11-28 00:00:01.001
+2020-11-27 17:53:22,777 INFO 88657 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-27 17:53:22,777 INFO 88657 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-27 17:53:22,777 INFO 88657 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-27 17:53:34,054 INFO 88678 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-27 17:53:34,054 INFO 88678 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-27 17:53:34,054 INFO 88678 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-28 10:21:32,089 INFO 89855 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-28 10:21:32,089 INFO 89855 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-28 10:21:32,089 INFO 89855 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-28 10:21:33,305 INFO 89853 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65306702ms at 2020-11-29 04:30:00.007
+2020-11-28 10:21:33,306 INFO 89853 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49106695ms at 2020-11-29 00:00:00.001
+2020-11-28 10:21:33,306 INFO 89853 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49107694ms at 2020-11-29 00:00:01.000
+2020-11-28 15:53:31,570 INFO 3352 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-28 15:53:31,570 INFO 3352 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-28 15:53:31,570 INFO 3352 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-28 15:53:34,159 INFO 3348 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45385847ms at 2020-11-29 04:30:00.006
+2020-11-28 15:53:34,160 INFO 3348 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29185841ms at 2020-11-29 00:00:00.001
+2020-11-28 15:53:34,160 INFO 3348 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29186840ms at 2020-11-29 00:00:01.000
+2020-12-09 15:19:35,939 INFO 20855 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-12-09 15:19:35,939 INFO 20855 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-12-09 15:19:35,939 INFO 20855 [egg-schedule]: register schedule /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-12-09 15:19:38,596 INFO 20849 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47421411ms at 2020-12-10 04:30:00.007
+2020-12-09 15:19:38,596 INFO 20849 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31221404ms at 2020-12-10 00:00:00.000
+2020-12-09 15:19:38,596 INFO 20849 [Timer] /Users/chengqihan/workspace/my-app/my-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31222404ms at 2020-12-10 00:00:01.000

@@ -62,7 +62,6 @@ export default function paramValid(schema): any {
       query: ctx.query,
       body: ctx.request.body,
     };
-
     const schemaKeys: string[] = Object.keys(joiSchema);
     if (schema && schemaKeys.length > 0) {
       schemaKeys.forEach(item => {

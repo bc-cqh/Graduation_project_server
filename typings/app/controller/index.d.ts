@@ -3,9 +3,11 @@
 
 import 'egg';
 import ExportAccount from '../../../app/controller/account';
+import ExportFile from '../../../app/controller/file';
 
 declare module 'egg' {
   interface IController {
     account: ExportAccount;
+    file: ExportFile;
   }
 }

@@ -14,9 +14,10 @@ export default (app: Application) => {
     public mobile!: string;
     public password!: string;
     public nickName!: string;
-    public dingId!: string;
     public avatar!: string;
     public email!: string;
+    public userName!: string;
+    public currentAuthority!: string;
     public readonly ctime!: number;
     public readonly mtime!: number;
 
@@ -61,12 +62,12 @@ export default (app: Application) => {
       comment: '组织id',
       defaultValue: () => null,
     },
-    dingUnionid: {
+    currentAuthority: {
       type: STRING,
       allowNull: true,
-      field: 'ding_union_id',
-      comment: '钉钉 id',
-      defaultValue: null,
+      field: 'current_authority',
+      comment: '当前权限',
+      defaultValue: 'account',
     },
     email: {
       type: STRING,
@@ -84,7 +85,7 @@ export default (app: Application) => {
     },
     mobile: {
       type: CHAR(20),
-      allowNull: false,
+      allowNull:true,
       comment: '手机号',
       unique: true,
     },
@@ -92,6 +93,12 @@ export default (app: Application) => {
       type: STRING(32),
       allowNull: true,
       comment: '昵称',
+    },
+    userName: {
+      type: STRING(20),
+      allowNull: false,
+      comment: '用户名',
+      unique: true,
     },
     password: {
       type: STRING,
